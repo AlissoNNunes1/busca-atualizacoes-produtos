@@ -1,23 +1,28 @@
 // Importar o módulo de renderização de templates EJS
 const ejs = require('ejs');
 const express = require('express');
+const { listarProdutos, detalhesProdutos } = require('./service');
 const app = express();
 
-// Importar a função buscarProdutos do service.js
-const { buscarProdutos } = require('./service');
-
-app.set('view engine', 'ejs');
-
-app.get('/', async (req, res) => {
+// Rota que retorna os produtos atualizados no dia com informações
+app.get('/produtos-atualizados', async (req, res) => {
     try {
-        // Buscar os produtos
-        const { produtos } = await buscarProdutos();
+        // Lista os produtos atualizados no dia
+        const gtinsAtualizados = await listarProdutos();
+
+        // Array que armazena o detalhe dos produtos
+        const detalhesProdutos = [];
+
+        //Intera sobre cada GTIN e realiza a busca sobre os detalhes de cada um
+        for (const gtin of gtinsAtualizados) {
+            const detalhes = await detalhesProdutos(gtin);
+            detalhesProdutos.push(detalhes);
+        }
 
         // Renderizar o template 'index' e passar a variável 'produtos' para o template
-        res.render('index', { produtos });
+        res.json(detalhesProdutos);
     } catch (error) {
-        console.error('Erro ao buscar produtos:', error);
-        res.status(500).send('Erro ao buscar produtos');
+        res.status(500).json({ error: 'Erro ao buscar produtos atualizados' });
     }
 });
 
