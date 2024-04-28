@@ -84,7 +84,7 @@ async function listarProdutos(dataAtual) {
 async function detalhesProduto(gtin) {
     try {
         const token = await autenticar();
-        const response = await api.get(`/product?gtin=${gtin}&noAgreement=true`, {
+        const response = await api.get(`/product?gtin=${gtin}`, {
             headers: {
                 Authorization: `Bearer ${token}`
             }
@@ -93,7 +93,7 @@ async function detalhesProduto(gtin) {
         // Extrair os detalhes relevantes do produto da resposta
         const detalhes = response.data;
 
-        console.log(detalhes)
+        
         
         return detalhes;
         
@@ -105,37 +105,11 @@ async function detalhesProduto(gtin) {
 
 
 
-async function buscarProdutos() {
-    try {
-        // Obter os GTINs dos produtos
-        const gtins = await listarProdutos(dataAtual);
-        console.log(gtins);
-        // Array para armazenar os detalhes de todos os produtos
-        const detalhesProdutos = [];
-
-        // Iterar sobre cada GTIN e buscar seus detalhes
-        for (const gtin of gtins) {
-            const detalhes = await detalhesProduto(gtin);
-            detalhesProdutos.push(detalhes);
-        }
-
-        // Criar um objeto JSON com os detalhes de todos os produtos
-        const jsonDetalhesProdutos = {
-            produtos: detalhesProdutos
-        };
-        console.log(jsonDetalhesProdutos)
-        return jsonDetalhesProdutos;
-        
-    } catch (error) {
-        console.error('Erro ao buscar produtos:', error.response ? error.response.data : error.message);
-        throw error;
-    }
-}
-
 
 exemploAutenticacao();
 module.exports = {
+    detalhesProduto,
     listarProdutos,
-    buscarProdutos,
+   
     codigosGTIN
 };
