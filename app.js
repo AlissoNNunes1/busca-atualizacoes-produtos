@@ -13,7 +13,7 @@ const diaAnterior = day.toString().padStart(2, '0');
 console.log(diaAnterior);
 let contagem = 1
 
-const dataAtual = `${year}${month}${'26'}${"00"}${"00"}${"00"}`;
+const dataAtual = `${year}${month}${diaAnterior}${"00"}${"00"}${"00"}`;
 
 // Rota que retorna os produtos atualizados no dia com informações
 app.get('/', async (req, res) => {
