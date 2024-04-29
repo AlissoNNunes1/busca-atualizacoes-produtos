@@ -1,12 +1,5 @@
 //service.js
-const now = new Date();
-const year = now.getFullYear();
-const month = (now.getMonth() + 1).toString().padStart(2, '0');
-const day = now.getDate().toString().padStart(2, '0');
 
-
-const dataAtual = `${year}${month}${day}${"00"}${"00"}${"00"}`;
-let codigosGTIN = [];
 
 const axios = require('axios');
 require('dotenv').config();
@@ -29,9 +22,10 @@ async function autenticar() {
             email: apiEmail,
             password: apiPassword
         });
-
+        console.log('a minha função foi chamada')
         // Retornar o token JWT da resposta
         return response.data.token;
+        
     } catch (error) {
         // Lidar com erros de autenticação
         console.error('Erro na autenticação:', error.response ? error.response.data.errorMessage : error.message);
@@ -39,25 +33,16 @@ async function autenticar() {
     }
 }
 
-// Exemplo de uso da função de autenticação
-async function exemploAutenticacao() {
-    try {
-        const token = await autenticar();
-        console.log('Token JWT:', token);
-    } catch (error) {
-        console.error('Erro durante a autenticação:', error.message);
-    }
-}
 
-async function listarProdutos(dataAtual) {
+
+async function listarProdutos(dataAtual, token) {
     try {
-        const token = await autenticar();
-        const response = await api.get(`/products-published?ultimaAtualizacao=${dataAtual}&mostrarInativos=false&mostrarDescricao=true`, {
+        
+        const response = await api.get(`/products-published?ultimaAtualizacao=${dataAtual}`, {
             headers: {
                 Authorization: `Bearer ${token}`
             }
         });
-        
         
         // Verifica se a resposta contém dados
         if (response.data && response.data.length > 0) {
@@ -81,9 +66,9 @@ async function listarProdutos(dataAtual) {
 }
 
 
-async function detalhesProduto(gtin) {
+async function detalhesProduto(gtin, token) {
     try {
-        const token = await autenticar();
+        
         const response = await api.get(`/product?gtin=${gtin}`, {
             headers: {
                 Authorization: `Bearer ${token}`
@@ -105,11 +90,8 @@ async function detalhesProduto(gtin) {
 
 
 
-
-exemploAutenticacao();
 module.exports = {
+    autenticar,
     detalhesProduto,
     listarProdutos,
-   
-    codigosGTIN
 };
