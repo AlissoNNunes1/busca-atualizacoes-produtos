@@ -1,3 +1,4 @@
+// app.js
 // Importar o módulo de renderização de templates EJS
 const ejs = require('ejs');
 const express = require('express');
@@ -6,9 +7,13 @@ const app = express();
 const now = new Date();
 const year = now.getFullYear();
 const month = (now.getMonth() + 1).toString().padStart(2, '0');
-const day = now.getDate().toString().padStart(2, '0');
+let day = now.getDate();
+day = day > 1 ? day - 1 : 1; 
+const diaAnterior = day.toString().padStart(2, '0');
+console.log(diaAnterior);
 
-const dataAtual = `${year}${month}${day}${"00"}${"00"}${"00"}`;
+
+const dataAtual = `${year}${month}${diaAnterior}${"00"}${"00"}${"00"}`;
 
 // Rota que retorna os produtos atualizados no dia com informações
 app.get('/', async (req, res) => {

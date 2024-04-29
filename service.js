@@ -1,12 +1,5 @@
 //service.js
-const now = new Date();
-const year = now.getFullYear();
-const month = (now.getMonth() + 1).toString().padStart(2, '0');
-const day = now.getDate().toString().padStart(2, '0');
 
-
-const dataAtual = `${year}${month}${day}${"00"}${"00"}${"00"}`;
-let codigosGTIN = [];
 
 const axios = require('axios');
 require('dotenv').config();
@@ -32,6 +25,7 @@ async function autenticar() {
 
         // Retornar o token JWT da resposta
         return response.data.token;
+        
     } catch (error) {
         // Lidar com erros de autenticação
         console.error('Erro na autenticação:', error.response ? error.response.data.errorMessage : error.message);
@@ -39,15 +33,7 @@ async function autenticar() {
     }
 }
 
-// Exemplo de uso da função de autenticação
-async function exemploAutenticacao() {
-    try {
-        const token = await autenticar();
-        console.log('Token JWT:', token);
-    } catch (error) {
-        console.error('Erro durante a autenticação:', error.message);
-    }
-}
+
 
 async function listarProdutos(dataAtual) {
     try {
@@ -105,11 +91,7 @@ async function detalhesProduto(gtin) {
 
 
 
-
-exemploAutenticacao();
 module.exports = {
     detalhesProduto,
     listarProdutos,
-   
-    codigosGTIN
 };
