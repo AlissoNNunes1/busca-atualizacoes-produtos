@@ -84,80 +84,73 @@ async function detalhesProduto(gtin, token) {
         //console.log(response.data);
 
         // Extrair os detalhes relevantes do produto da resposta
-        const detalhes = response.data.map(produto => ({
+        const detalhes = response.data.map(produto => {
+            {
+            "gtin": produto.gtin,
+            "descricao": produto.descricao,
+            "marca": produto.marca ? produto.marca.nome : null,
+            "submarca": produto.submarca ? {{produto.submarca.nome}} : null,
+            "codigoInterno": produto.codigoInterno,
+            "categoriaProduto": produto.categoriaProduto ? {{produto.categoriaProduto.nome}} : null,
+            "categoriaPai": produto.categoriaPai ? {{produto.categoriaPai.nome}} : null,
+            "origem": produto.origem,
 
-            gtin: produto.gtin,
-            descricao: produto.descricao,
-            marca: produto.marca ? produto.marca.submarca : null,
-            submarca: produto.marca ? produto.marca.submarca : null,
-            codigoInterno: produto.codigoInterno,
-            categoriaProduto: produto.categoriaProduto ? produto.categoriaProduto.nome : null,
-            categoriaPai: produto.categoriaPai ? produto.categoriaPai.nome : null,
-            origem: produto.origem,
-
-            classificacaoFiscal: produto.classificacaoFiscal ? {
-                ncm: produto.classificacaoFiscal.ncm,
-                caracteristica: produto.classificacaoFiscal.caracteristica,
-                cestCodigo: produto.classificacaoFiscal.cestCoding,
-                cestDescricao: produto.classificacaoFiscal.cestDescricao,
+            "classificacaoFiscal": produto.classificacaoFiscal ? {
+                "ncm": produto.classificacaoFiscal.ncm,
+                "caracteristica": produto.classificacaoFiscal.caracteristica ? produto.classificacaoFiscal.caracteristica : null,
+                "cestCodigo": produto.classificacaoFiscal.cestCoding,
+                "cestDescricao": produto.classificacaoFiscal.cestDescricao,
             } : null,
 
-            imagemPrincipal: produto.imagemPrincipal ? {
-                url: produto.imagemPrincipal.url,
-                ultimaAtualizacao: produto.imagemPrincipal.ultimaAtualizacao,
+            "imagemPrincipal": produto.imagemPrincipal ? {
+                "url": produto.imagemPrincipal.url,
+                "ultimaAtualizacao": produto.imagemPrincipal.ultimaAtualizacao,
             } : null,
 
-            ativos: produto.ativos ? {
-                url: produto.ativos.url,
-                ultimaAtualizacao: produto.ativos.ultimaAtualizacao,
-            } : null,
+            "ativos": produto.ativos ? produtos.ativos.map( ativo => {
+                "url": ativo.url,
+                "ultimaAtualizacao": ativo.ultimaAtualizacao,
+            }) : null,
 
-            composicaoLogistica: produto.composicaologistica ? {
-                gtin: produto.composicaologistica.gtin,
-                unidadeEmbalagem: produto.composicaologistica.unidadeEmbalagen,
-                quantidade: produto.composicaologistica.quantidade,
-                quantidadeTotal: produto.composicaoLogistica.quantidadeTotal,
-                altura: produto.composicaologistica.altura,
-                alturaUm: produto.composicaologistica.alturaum ? {
-                    abrev: produto.composicaologistica.alturaum.abrev,
-                    nome: produto.composicaologistica.alturalm.nome,
-                    baseConversao: produto.composicaoLogistica.baseConvercao,
-                largura: produto.largura,
-                largauraUm: produto.larguraUm ? {
-                    nome: produto.larguraUm.nome,
-                    abrev: produto.larguraUm.abrev,
-                    baseConversao: produto.larguraUm.baseConvercao,
-                    } : null,
-                } : null,
-
-                profundidade: produto.profundidade,
-                profundidadeUm: produto.profundidadeUm ? {
-                    nome: produto.profundidadeUm.nome,
-                    abrev: produto.profundidadeUmUm.abrev,
-                    baseConversao: produto.profundidadeUm.baseConvercao,
-                } : null,
-
-                pesoLiquido: produto.pesoLiquido,
-                pesoLiquidoUm: produto.pesoLiquidoUm ? {
-                    nome: produto.pesoLiquidoUm.nome,
-                    abrev: produto.pesoLiquidoUm.abrev,
-                    baseConversao: produto.pesoLiquidoUm.baseConvercao,
-                } : null,
-
-                pseoBruto: produto.pseoBruto,
-                pesoBrutoUm: produto.pesoBrutoUm ? {
-                    nome: produto.pesoBrutoUm.nome,
-                    abrev: produto.pesoBrutoUm.abrev,
-                    baseConversao: produto.pesoBrutoUm.baseConvercao,
-                } : null,
-
-                quantidadeCamadasPallet: produto.quantidadeCamadasPallet !== undefined ? produto.quantidadeCamadasPallet : null,
-                caixasCamada: produto.caixasCamada !== undefined ? produto.caixasCamada : null,
-                alturaPallet: produto.alturaPallet !== undefined ? produto.alturaPallet : null,
-                larguraPallet: produto.larguraPallet !== undefined ? produto.larguraPallet : null,
-            } : null,
-            
-        }));
+            "composicoesLogisticas": produto.composicoesLogisticas ? produto.composicoesLogisticas.map( composicao => {
+                "niveis": composicao.niveis ? composicao.niveis.map( nivel => {
+                    "gtin": nivel.gtin,
+                    "unidadeEmbalagem": nivel.unidadeEmbalagen,
+                    "quantidade": nivel.quantidade,
+                    "quantidadeTotal": nivel.quantidadeTotal,
+                    "altura": nivel.altura,
+                    "alturaUm": nivel.alturaUm ? nivel.alturaUm.map(altura => {
+                        "nome": altura.nome,
+                        "abrev": altura.abrev,
+                        "baseConvercao": altura.baseConvercao}) : null,
+                    "largura": nivel.largura,
+                    "largauraUm": nivel.larguraUm ? nivel.larguraUm.map(largura => {
+                        "nome": largura.nome,
+                        "abrev": largura.abrev,
+                        "baseConvercao": largura.baseConvercao}) : null,
+                    "profundidade": nivel.profundidade,
+                    "profundidadeUm": nivel.profundidadeUm ? nivel.profundidadeUm.map(profundidade => {
+                        "nome": profundidade.nome,
+                        "abrev": profundidade.abrev,
+                        "baseConvercao": profundidade.baseConvercao}) : null,
+                    "pesoLiquido": nivel.pesoLiquido,
+                    "pesoLiquidoUm": nivel.pesoLiquidoUm ? nivel.profundidadeUm.map(pesoLiquido => {
+                        "nome": pesoLiquido.nome,
+                        "abrev": pesoLiquido.abrev,
+                        "baseConvercao": pesoLiquido.baseConvercao}) : null,
+                    "pesoBruto": nivel.pesoBruto,
+                    "pesoBrutoUm": nivel.pesoBrutoUm ? nivel.pesoBrutoUm.map(pesoBruto => {
+                        "nome": pesoBruto.nome,
+                        "abrev": pesoBruto.abrev,
+                        "baseConvercao": pesoBruto.baseConvercao}) : null,
+                    "paletizacoes": nivel.paletizacoes ? nivel.paletizacoes.map( paletizacao => {
+                        "quantidadeCamadasPallet": paletizacao.quantidadeCamadasPallet,
+                        "caixasCamada": paletizacao.caixasCamada,
+                        "alturaPallet": paletizacao.alturaPallet,
+                        "larguraPallet": paletizacao.larguraPallet}) : null
+                }) : null
+                }) : null,
+            }}
         
         
         return detalhes;
