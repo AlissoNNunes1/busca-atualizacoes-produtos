@@ -9,10 +9,7 @@ const now = new Date();
 const year = now.getFullYear();
 const month = (now.getMonth() + 1).toString().padStart(2, "0");
 let day = now.getDate();
-day = day > 1 ? day - 1 : 1;
 const diaAnterior = day.toString().padStart(2, "0");
-// console.log(diaAnterior);
-// let contagem = 1;
 
 const dataAtual = `${year}${month}${diaAnterior}${"00"}${"00"}${"00"}`;
 
