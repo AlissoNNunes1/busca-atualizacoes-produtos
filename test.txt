@@ -1,0 +1,2860 @@
+[
+  {
+    "produtos": [
+      {
+        "ultimaAtualizacao": "2024-05-07T11:46:11",
+        "mercadoAlvo": {
+          "nome": "Brasil",
+          "id": 1
+        },
+        "codigoInterno": "67486490",
+        "origem": {
+          "nome": "5 - Nacional Imp Inf 40%",
+          "id": "NACIONAL_IMP_INF_40"
+        },
+        "idioma": {
+          "nome": "Português",
+          "id": 1
+        },
+        "medidas": {
+          "validadeUm": {
+            "abrev": "ANO",
+            "baseConvercao": "DA",
+            "nome": "Ano(s)",
+            "fatorConvercao": 0.0027397260273972603
+          },
+          "quantidadeUnitario": 1,
+          "pesoBrutoValidado": "Sim",
+          "conteudoLiquidoUm": {
+            "abrev": "ML",
+            "baseConvercao": "ML",
+            "nome": "Mililitro(s)",
+            "fatorConvercao": 1
+          },
+          "quantidadePackKitUm": {
+            "abrev": "UN",
+            "baseConvercao": "",
+            "nome": "Unidade(s)",
+            "fatorConvercao": 0
+          },
+          "larguraUm": {
+            "abrev": "MM",
+            "baseConvercao": "CM",
+            "nome": "Milímetro(s)",
+            "fatorConvercao": 10
+          },
+          "pesoVariavel": "Não",
+          "pesoPadronizado": "Não",
+          "alturaUm": {
+            "abrev": "MM",
+            "baseConvercao": "CM",
+            "nome": "Milímetro(s)",
+            "fatorConvercao": 10
+          },
+          "medidasValidadas": "Sim",
+          "id": 49580,
+          "volumeUm": {
+            "abrev": "UN",
+            "baseConvercao": "",
+            "nome": "Unidade(s)",
+            "fatorConvercao": 0
+          },
+          "profundidadeUm": {
+            "abrev": "MM",
+            "baseConvercao": "CM",
+            "nome": "Milímetro(s)",
+            "fatorConvercao": 10
+          },
+          "naoSeAplicaValidade": "Não",
+          "largura": 106,
+          "medidaVariavel": "Não",
+          "conteudoLiquido": 800,
+          "profundidade": 106,
+          "validade": 2,
+          "quantidadeUnitarioUm": {
+            "abrev": "UN",
+            "baseConvercao": "",
+            "nome": "Unidade(s)",
+            "fatorConvercao": 0
+          },
+          "volume": 1,
+          "pesoBrutoUm": {
+            "abrev": "g",
+            "baseConvercao": "g",
+            "nome": "Grama(s)",
+            "fatorConvercao": 1
+          },
+          "altura": 130,
+          "pesoBruto": 515,
+          "pesoLiquidoUm": {
+            "abrev": "g",
+            "baseConvercao": "g",
+            "nome": "Grama(s)",
+            "fatorConvercao": 1
+          },
+          "validadeIndeterminada": "Não",
+          "pesoLiquido": 457
+        },
+        "cadastroExpresso": false,
+        "mockUp": "Não",
+        "marca": {
+          "nome": "Kibon",
+          "id": 1574
+        },
+        "statusClassificacaoFiscal": {
+          "nome": "Completed",
+          "id": "COMPLETED"
+        },
+        "dataCadastroDados": "2018-08-14T05:13:26",
+        "lancamento": "2018-08-14T12:00:00",
+        "listaVariavel": [
+          {
+            "categoria": "DADOS_GERAIS",
+            "valor": "Água, açúcar, calda de caramelo, amendoim em pedaços com cobertura sabor chocolate, gordura vegetal, xarope de glicose, leite em pó desnatado, soro de leite, emulsificante mono e diglicerídeos de ácidos graxos, estabilizantes goma jataí, goma guar e carragena, corante caramelo IV e aromatizantes.",
+            "rotulo": "Ingredientes",
+            "atributo": "ingredientes"
+          },
+          {
+            "categoria": "SAC",
+            "valor": "0800 707 9933\n0800 707 4283",
+            "rotulo": "Telefone",
+            "atributo": "telefone"
+          },
+          {
+            "categoria": "SAC",
+            "valor": "www.kibon.com.br",
+            "rotulo": "Site",
+            "atributo": "site"
+          },
+          {
+            "categoria": "ALERGICOS",
+            "valor": "Contém",
+            "rotulo": "Contém Lactose",
+            "atributo": "contem-lactose"
+          },
+          {
+            "categoria": "ALERGICOS",
+            "valor": "Pode Conter",
+            "rotulo": "Contém Cevada",
+            "atributo": "contem-cevada"
+          },
+          {
+            "categoria": "ALERGICOS",
+            "valor": "Contém",
+            "rotulo": "Contém Glúten",
+            "atributo": "contem-gluten"
+          },
+          {
+            "categoria": "ALERGICOS",
+            "valor": "Contém",
+            "rotulo": "Contém Leite",
+            "atributo": "contem-leite"
+          },
+          {
+            "categoria": "ALERGICOS",
+            "valor": "Contém",
+            "rotulo": "Contém Leite - Derivados",
+            "atributo": "contem-leite-derivados"
+          },
+          {
+            "categoria": "ALERGICOS",
+            "valor": "Contém",
+            "rotulo": "Contém Soja - Derivados",
+            "atributo": "contem-soja-derivados"
+          },
+          {
+            "categoria": "ALERGICOS",
+            "valor": "Contém",
+            "rotulo": "Contém Amendoim",
+            "atributo": "contem-amendoim"
+          },
+          {
+            "categoria": "ALERGICOS",
+            "valor": "Pode Conter",
+            "rotulo": "Contém Aveia",
+            "atributo": "contem-aveia"
+          },
+          {
+            "categoria": "ALERGICOS",
+            "valor": "Pode Conter",
+            "rotulo": "Contém Trigo",
+            "atributo": "contem-trigo"
+          },
+          {
+            "categoria": "ALERGICOS",
+            "valor": "Contém",
+            "rotulo": "Aromatizante Artificial",
+            "atributo": "contem-aromatizante-artificial"
+          },
+          {
+            "categoria": "ALERGICOS",
+            "valor": "Pode Conter",
+            "rotulo": "Contém Nozes",
+            "atributo": "contem-nozes"
+          },
+          {
+            "categoria": "ALERGICOS",
+            "valor": "Pode Conter",
+            "rotulo": "Contém Centeio",
+            "atributo": "contem-centeio"
+          },
+          {
+            "categoria": "ALERGICOS",
+            "valor": "Pode Conter",
+            "rotulo": "Contém Amêndoa",
+            "atributo": "contem-amendoa"
+          },
+          {
+            "categoria": "ALERGICOS",
+            "valor": "Pode Conter",
+            "rotulo": "Contém Castanha-do-Pará",
+            "atributo": "contem-castanha-do-para"
+          },
+          {
+            "categoria": "ALERGICOS",
+            "valor": "Pode Conter",
+            "rotulo": "Contém Castanha-de-Caju",
+            "atributo": "contem-castanha-de-caju"
+          },
+          {
+            "categoria": "ALERGICOS",
+            "valor": "Pode Conter",
+            "rotulo": "Contém Avelã",
+            "atributo": "contem-avela"
+          },
+          {
+            "categoria": "ALIMENTAR",
+            "valor": "Snickers",
+            "rotulo": "Sabor",
+            "atributo": "sabor"
+          },
+          {
+            "categoria": "ALIMENTAR",
+            "valor": "Não",
+            "rotulo": "Light",
+            "atributo": "produto-light"
+          },
+          {
+            "categoria": "ALIMENTAR",
+            "valor": "Não",
+            "rotulo": "Diet",
+            "atributo": "produto-diet"
+          },
+          {
+            "categoria": "ALIMENTAR",
+            "valor": "Não",
+            "rotulo": "Integral",
+            "atributo": "produto-integral"
+          },
+          {
+            "categoria": "DADOS_GERAIS",
+            "valor": "CNPJ: 11.806.723/0006-03 - Razão Social: Unilever Brasil Gelados Ltda",
+            "rotulo": "Fabricado/Produzido por",
+            "atributo": "fabricado-produzido-por"
+          },
+          {
+            "categoria": "SELOS_CERTIF",
+            "valor": "Não",
+            "rotulo": "FSC",
+            "atributo": "fsc"
+          },
+          {
+            "categoria": "ALIMENTAR",
+            "valor": "Não",
+            "rotulo": "Semidesnatado/Parcialmente Desnatado",
+            "atributo": "semidesnatado"
+          },
+          {
+            "categoria": "ALIMENTAR",
+            "valor": "Não",
+            "rotulo": "Desnatado",
+            "atributo": "produto-desnatado"
+          },
+          {
+            "categoria": "CONS_SERV",
+            "valor": "-18.0",
+            "rotulo": "Temperatura Mínima",
+            "atributo": "temperatura-minima"
+          },
+          {
+            "categoria": "CONS_SERV",
+            "valor": "Grau(s) Celsius",
+            "rotulo": "Temperatura Mínima",
+            "atributo": "temperatura-minima.um.nome"
+          },
+          {
+            "categoria": "CONS_SERV",
+            "valor": "CE",
+            "rotulo": "Temperatura Mínima",
+            "atributo": "temperatura-minima.um.abrev"
+          },
+          {
+            "categoria": "CONS_SERV",
+            "valor": "-18.0",
+            "rotulo": "Temperatura Máxima",
+            "atributo": "temperatura-maxima"
+          },
+          {
+            "categoria": "CONS_SERV",
+            "valor": "Grau(s) Celsius",
+            "rotulo": "Temperatura Máxima",
+            "atributo": "temperatura-maxima.um.nome"
+          },
+          {
+            "categoria": "CONS_SERV",
+            "valor": "CE",
+            "rotulo": "Temperatura Máxima",
+            "atributo": "temperatura-maxima.um.abrev"
+          },
+          {
+            "categoria": "ALERGICOS",
+            "valor": "Pode Conter",
+            "rotulo": "Contém Macadâmia",
+            "atributo": "contem-macadamia"
+          },
+          {
+            "categoria": "CONS_SERV",
+            "valor": "Congelado",
+            "rotulo": "Armazenagem (Local)",
+            "atributo": "armazenagem-local"
+          },
+          {
+            "categoria": "SELOS_CERTIF",
+            "valor": "Não",
+            "rotulo": "IBD Certificado Orgânico",
+            "atributo": "ibd-certificado-organico"
+          },
+          {
+            "categoria": "DADOS_GERAIS",
+            "valor": "Contém",
+            "rotulo": "Corante Artificial",
+            "atributo": "corante-artificial"
+          },
+          {
+            "categoria": "DADOS_GERAIS",
+            "valor": "Sorvete",
+            "rotulo": "Nome Principal do Item",
+            "atributo": "nome-principal-do-item"
+          },
+          {
+            "categoria": "MARKETING",
+            "valor": "Kibon, Pote de Snickers, Pote de Sorvete, Snikers, Snikers Sorvete, Sorvete, Sorvete com Caramelos, Sorvete de Pote, Sorvete de Pote Kibon, Sorvete Snickers",
+            "rotulo": "Palavras - Chave",
+            "atributo": "palavras-chave"
+          },
+          {
+            "categoria": "DADOS_GERAIS",
+            "valor": "Não",
+            "rotulo": "Orgânico",
+            "atributo": "produto-organico"
+          },
+          {
+            "categoria": "DADOS_GERAIS",
+            "valor": "20.99",
+            "rotulo": "Preço Sugerido R$",
+            "atributo": "preco-sugerido"
+          },
+          {
+            "categoria": "DADOS_GERAIS",
+            "valor": "Não",
+            "rotulo": "BPA Free",
+            "atributo": "vd-acido-caprilico"
+          },
+          {
+            "categoria": "ALERGICOS",
+            "valor": "Artificial",
+            "rotulo": "Aromatizante",
+            "atributo": "aromatizante"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "60",
+            "rotulo": "Porção",
+            "atributo": "porcao"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "Grama(s)",
+            "rotulo": "Porção",
+            "atributo": "porcao.um.nome"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "g",
+            "rotulo": "Porção",
+            "atributo": "porcao.um.abrev"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "1 bola",
+            "rotulo": "Porção Equivalente a",
+            "atributo": "porcao-equivalente-a"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "* %Valores Diários com base em uma dieta de 2.000kcal ou 8.400kj. Seus valores diários podem ser maiores ou menores dependendo de suas necessidades energéticas. ** VD não estabelecido.",
+            "rotulo": "Referência para Valores Diários",
+            "atributo": "referencia-para-valores-diarios"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "Sim",
+            "rotulo": "Possui Informações Nutricionais",
+            "atributo": "possui-informacoes-nutricionais"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "15",
+            "rotulo": "Carboidratos",
+            "atributo": "carboidratos"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "Grama(s)",
+            "rotulo": "Carboidratos",
+            "atributo": "carboidratos.um.nome"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "g",
+            "rotulo": "Carboidratos",
+            "atributo": "carboidratos.um.abrev"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "5",
+            "rotulo": "%VD Carboidratos",
+            "atributo": "percentagem-vd-carboidratos"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "56",
+            "rotulo": "Sódio",
+            "atributo": "sodio"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "Miligrama(s)",
+            "rotulo": "Sódio",
+            "atributo": "sodio.um.nome"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "MG",
+            "rotulo": "Sódio",
+            "atributo": "sodio.um.abrev"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "2",
+            "rotulo": "%VD Sódio",
+            "atributo": "percentagem-vd-sodio"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "500.000",
+            "rotulo": "Valor Energético (kj)",
+            "atributo": "valor-energetico-kj"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "0",
+            "rotulo": "Gorduras Trans",
+            "atributo": "gorduras-trans"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "Grama(s)",
+            "rotulo": "Gorduras Trans",
+            "atributo": "gorduras-trans.um.nome"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "g",
+            "rotulo": "Gorduras Trans",
+            "atributo": "gorduras-trans.um.abrev"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "**",
+            "rotulo": "%VD Gorduras Trans",
+            "atributo": "percentagem-vd-gorduras-trans"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "2,0",
+            "rotulo": "Proteínas",
+            "atributo": "proteinas"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "Grama(s)",
+            "rotulo": "Proteínas",
+            "atributo": "proteinas.um.nome"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "g",
+            "rotulo": "Proteínas",
+            "atributo": "proteinas.um.abrev"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "3",
+            "rotulo": "%VD Proteínas",
+            "atributo": "percentagem-vd-proteinas"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "13",
+            "rotulo": "Açúcares",
+            "atributo": "acucares"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "Grama(s)",
+            "rotulo": "Açúcares",
+            "atributo": "acucares.um.nome"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "g",
+            "rotulo": "Açúcares",
+            "atributo": "acucares.um.abrev"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "**",
+            "rotulo": "%VD Açúcares",
+            "atributo": "percentagem-vd-acucares"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "5,7",
+            "rotulo": "Gorduras Totais",
+            "atributo": "gorduras-totais"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "Grama(s)",
+            "rotulo": "Gorduras Totais",
+            "atributo": "gorduras-totais.um.nome"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "g",
+            "rotulo": "Gorduras Totais",
+            "atributo": "gorduras-totais.um.abrev"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "10",
+            "rotulo": "%VD Gorduras Totais",
+            "atributo": "percentagem-vd-gorduras-totais"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "3,1",
+            "rotulo": "Gorduras Saturadas",
+            "atributo": "gorduras-saturadas"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "Grama(s)",
+            "rotulo": "Gorduras Saturadas",
+            "atributo": "gorduras-saturadas.um.nome"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "g",
+            "rotulo": "Gorduras Saturadas",
+            "atributo": "gorduras-saturadas.um.abrev"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "14",
+            "rotulo": "%VD Gorduras Saturadas",
+            "atributo": "percentagem-vd-gorduras-saturadas"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "0",
+            "rotulo": "Fibra Alimentar",
+            "atributo": "fibra-alimentar"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "Grama(s)",
+            "rotulo": "Fibra Alimentar",
+            "atributo": "fibra-alimentar.um.nome"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "g",
+            "rotulo": "Fibra Alimentar",
+            "atributo": "fibra-alimentar.um.abrev"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "0",
+            "rotulo": "%VD Fibra Alimentar",
+            "atributo": "percentagem-vd-fibra-alimentar"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "119.000",
+            "rotulo": "Valor Energético (kcal)",
+            "atributo": "valor-energetico-kcal"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "6",
+            "rotulo": "%VD Valor Energético",
+            "atributo": "percentagem-vd-valor-energetico"
+          }
+        ],
+        "embalagemProduto": {
+          "aguardandoCorrecao": "Não",
+          "nome": "Pote",
+          "id": 43
+        },
+        "preLancamento": "Não",
+        "embalagem": {
+          "nome": "UNIDADE",
+          "id": 1
+        },
+        "id": 39586,
+        "dataCadastro": "2018-08-13T07:55:48",
+        "descricaoCurta": "Kibon Sorv Pt Snickers 4 X 800ml/457g",
+        "ativos": [
+          {
+            "codigo": "10",
+            "variacaoAtivo": "1",
+            "ultimaAtualizacao": "2022-06-30 13:14:39.0",
+            "nomeAtivo": "7891150061033_10_1_3000_300_SRGB.tif",
+            "largura": "3000",
+            "url": "https://link-validate.simplustec.com.br/image-link-generator/?name=7891150061033_10_1_3000_300_SRGB.tif&hash=42d74833e0ba3e4b9b6359d1633372c4",
+            "descricao": "7891150061033_10_1_3000_300_SRGB.tif",
+            "tipoAtivo": "tif",
+            "altura": 3000,
+            "id": 183879,
+            "DPI": "300",
+            "padraoCor": "SRGB",
+            "versao": 1
+          },
+          {
+            "codigo": "10",
+            "variacaoAtivo": "1",
+            "ultimaAtualizacao": "2022-06-30 13:14:39.0",
+            "nomeAtivo": "7891150061033_10_1_1200_72_SRGB.png",
+            "largura": "1200",
+            "url": "https://link-validate.simplustec.com.br/image-link-generator/?name=7891150061033_10_1_1200_72_SRGB.png&hash=effce5f9b5f12c24b5de318b2a3e721e",
+            "descricao": "7891150061033_10_1_1200_72_SRGB.png",
+            "tipoAtivo": "png",
+            "altura": 1200,
+            "id": 183879,
+            "DPI": "72",
+            "padraoCor": "SRGB",
+            "versao": 1
+          },
+          {
+            "codigo": "10",
+            "variacaoAtivo": "1",
+            "ultimaAtualizacao": "2022-06-30 13:14:39.0",
+            "nomeAtivo": "7891150061033_10_1_1200_300_SRGB.jpg",
+            "largura": "1200",
+            "url": "https://link-validate.simplustec.com.br/image-link-generator/?name=7891150061033_10_1_1200_300_SRGB.jpg&hash=6c434e03c53b6924045faf8ff4954f23",
+            "descricao": "7891150061033_10_1_1200_300_SRGB.jpg",
+            "tipoAtivo": "jpg",
+            "altura": 1200,
+            "id": 183879,
+            "DPI": "300",
+            "padraoCor": "SRGB",
+            "versao": 1
+          },
+          {
+            "codigo": "1",
+            "variacaoAtivo": "1",
+            "ultimaAtualizacao": "2022-06-30 13:14:39.0",
+            "nomeAtivo": "7891150061033_1_1_3000_300_SRGB.tif",
+            "largura": "3000",
+            "url": "https://link-validate.simplustec.com.br/image-link-generator/?name=7891150061033_1_1_3000_300_SRGB.tif&hash=e8b697eab5f640553874ea54cc5ed2bd",
+            "descricao": "7891150061033_1_1_3000_300_SRGB.tif",
+            "tipoAtivo": "tif",
+            "altura": 3000,
+            "id": 183878,
+            "DPI": "300",
+            "padraoCor": "SRGB",
+            "versao": 1
+          },
+          {
+            "codigo": "1",
+            "variacaoAtivo": "1",
+            "ultimaAtualizacao": "2022-06-30 13:14:39.0",
+            "nomeAtivo": "7891150061033_1_1_1200_72_SRGB.png",
+            "largura": "1200",
+            "url": "https://link-validate.simplustec.com.br/image-link-generator/?name=7891150061033_1_1_1200_72_SRGB.png&hash=231edda2f623872bb7a6ca1dd3824ac9",
+            "descricao": "7891150061033_1_1_1200_72_SRGB.png",
+            "tipoAtivo": "png",
+            "altura": 1200,
+            "id": 183878,
+            "DPI": "72",
+            "padraoCor": "SRGB",
+            "versao": 1
+          },
+          {
+            "codigo": "1",
+            "variacaoAtivo": "1",
+            "ultimaAtualizacao": "2022-06-30 13:14:39.0",
+            "nomeAtivo": "7891150061033_1_1_1200_300_SRGB.jpg",
+            "largura": "1200",
+            "url": "https://link-validate.simplustec.com.br/image-link-generator/?name=7891150061033_1_1_1200_300_SRGB.jpg&hash=c18a69beed5a54a9e41a3dc954f6e2e6",
+            "descricao": "7891150061033_1_1_1200_300_SRGB.jpg",
+            "tipoAtivo": "jpg",
+            "altura": 1200,
+            "id": 183878,
+            "DPI": "300",
+            "padraoCor": "SRGB",
+            "versao": 1
+          },
+          {
+            "codigo": "2",
+            "variacaoAtivo": "1",
+            "ultimaAtualizacao": "2022-06-30 13:14:39.0",
+            "nomeAtivo": "7891150061033_2_1_3000_300_SRGB.tif",
+            "largura": "3000",
+            "url": "https://link-validate.simplustec.com.br/image-link-generator/?name=7891150061033_2_1_3000_300_SRGB.tif&hash=45f61653fa84b816339d440ceadda2d8",
+            "descricao": "7891150061033_2_1_3000_300_SRGB.tif",
+            "tipoAtivo": "tif",
+            "altura": 3000,
+            "id": 183880,
+            "DPI": "300",
+            "padraoCor": "SRGB",
+            "versao": 1
+          },
+          {
+            "codigo": "2",
+            "variacaoAtivo": "1",
+            "ultimaAtualizacao": "2022-06-30 13:14:39.0",
+            "nomeAtivo": "7891150061033_2_1_1200_72_SRGB.png",
+            "largura": "1200",
+            "url": "https://link-validate.simplustec.com.br/image-link-generator/?name=7891150061033_2_1_1200_72_SRGB.png&hash=b25dee7403179ce4fdebac6643fcb5e2",
+            "descricao": "7891150061033_2_1_1200_72_SRGB.png",
+            "tipoAtivo": "png",
+            "altura": 1200,
+            "id": 183880,
+            "DPI": "72",
+            "padraoCor": "SRGB",
+            "versao": 1
+          },
+          {
+            "codigo": "2",
+            "variacaoAtivo": "1",
+            "ultimaAtualizacao": "2022-06-30 13:14:39.0",
+            "nomeAtivo": "7891150061033_2_1_1200_300_SRGB.jpg",
+            "largura": "1200",
+            "url": "https://link-validate.simplustec.com.br/image-link-generator/?name=7891150061033_2_1_1200_300_SRGB.jpg&hash=c55c6389a0fda3d803c960978680967c",
+            "descricao": "7891150061033_2_1_1200_300_SRGB.jpg",
+            "tipoAtivo": "jpg",
+            "altura": 1200,
+            "id": 183880,
+            "DPI": "300",
+            "padraoCor": "SRGB",
+            "versao": 1
+          },
+          {
+            "codigo": "33",
+            "variacaoAtivo": "1",
+            "ultimaAtualizacao": "2022-06-30 13:14:39.0",
+            "nomeAtivo": "7891150061033_33_1_3000_300_SRGB.tif",
+            "largura": "3000",
+            "url": "https://link-validate.simplustec.com.br/image-link-generator/?name=7891150061033_33_1_3000_300_SRGB.tif&hash=da7a154d51879725e7f83a989a0eea65",
+            "descricao": "7891150061033_33_1_3000_300_SRGB.tif",
+            "tipoAtivo": "tif",
+            "altura": 3000,
+            "id": 559114,
+            "DPI": "300",
+            "padraoCor": "SRGB",
+            "versao": 1
+          },
+          {
+            "codigo": "33",
+            "variacaoAtivo": "1",
+            "ultimaAtualizacao": "2022-06-30 13:14:39.0",
+            "nomeAtivo": "7891150061033_33_1_1200_72_SRGB.png",
+            "largura": "1200",
+            "url": "https://link-validate.simplustec.com.br/image-link-generator/?name=7891150061033_33_1_1200_72_SRGB.png&hash=0885750a86efa60af1b4f4d544db528f",
+            "descricao": "7891150061033_33_1_1200_72_SRGB.png",
+            "tipoAtivo": "png",
+            "altura": 1200,
+            "id": 559114,
+            "DPI": "72",
+            "padraoCor": "SRGB",
+            "versao": 1
+          },
+          {
+            "codigo": "33",
+            "variacaoAtivo": "1",
+            "ultimaAtualizacao": "2022-06-30 13:14:39.0",
+            "nomeAtivo": "7891150061033_33_1_1200_300_SRGB.jpg",
+            "largura": "1200",
+            "url": "https://link-validate.simplustec.com.br/image-link-generator/?name=7891150061033_33_1_1200_300_SRGB.jpg&hash=cb1ffcacc0e44afb1067f28acd9a343e",
+            "descricao": "7891150061033_33_1_1200_300_SRGB.jpg",
+            "tipoAtivo": "jpg",
+            "altura": 1200,
+            "id": 559114,
+            "DPI": "300",
+            "padraoCor": "SRGB",
+            "versao": 1
+          }
+        ],
+        "imagemPrincipal": {
+          "codigo": "1",
+          "variacaoAtivo": "1",
+          "ultimaAtualizacao": "2022-06-30 13:14:39.0",
+          "nomeAtivo": "7891150061033_1_1_1200_300_RGB.png",
+          "largura": "1200",
+          "url": "https://link-validate.simplustec.com.br/image-link-generator/?name=7891150061033_1_1_1200_300_RGB.png&hash=4704130902ca91e637ba22eab2bacdf4",
+          "descricao": "7891150061033_1_1_1200_300_RGB.png",
+          "tipoAtivo": "png",
+          "altura": 1200,
+          "id": 183878,
+          "DPI": "300",
+          "padraoCor": "RGB",
+          "versao": 1
+        },
+        "classificacaoFiscal": {
+          "grupoTarifario": "SORVETES EM EMBALAGENS IMEDIATAS DE CONTEUDO INFERIOR OU IGUAL A 2 KG",
+          "caracteristica": "SORVETE",
+          "subsidio": "SORVETE PREPARADO GERALMENTE COM LEITE OU CREME DE LEITE, EM EMBALAGENS IMEDIATAS DE CONTEUDO DE ATE 2 KG.",
+          "cestDesccricao": "SORVETES DE QUALQUER ESPÉCIE",
+          "ncm": "21050010",
+          "id": 35110,
+          "cestCodigo": "2300100"
+        },
+        "gtin": "7891150061033",
+        "contatos": [],
+        "descricaoLonga": "Sorvete Snickers Baunilha com Calda de Caramelo e Pedaços de Amendoim com Cobertura de Chocolate Kibon Pote 800ml",
+        "ultimaAtualizacaoImg": "2022-06-30T13:14:39",
+        "fichaConteudoImportacao": "01C21F03-4191-49F2-9BC3-C09039474154",
+        "categoriaPai": {
+          "nome": "PERECIVEIS",
+          "id": 216
+        },
+        "descricao": "Sorvete Snickers Kibon Pote 800ml",
+        "submarca": {},
+        "composicoesLogisticas": [
+          {
+            "composicao": 1,
+            "isEnabled": true,
+            "niveis": [
+              {
+                "profundidadeUm": {
+                  "abrev": "CM",
+                  "baseConvercao": "CM",
+                  "nome": "Centímetro(s)",
+                  "fatorConvercao": 1
+                },
+                "unidadeDePedido": "Não",
+                "gtin": "17891150061030",
+                "largura": 10.9,
+                "paletizacoes": [
+                  {
+                    "pesoLiquidoForaDaEmbalagemPalletUm": {
+                      "abrev": "kg",
+                      "baseConvercao": "g",
+                      "nome": "Quilograma(s)",
+                      "fatorConvercao": 0.001
+                    },
+                    "profundidadePallet": 119.7,
+                    "pesoLiquidoPalletUm": {
+                      "abrev": "kg",
+                      "baseConvercao": "g",
+                      "nome": "Quilograma(s)",
+                      "fatorConvercao": 0.001
+                    },
+                    "caixasCamada": 24,
+                    "pesoLiquidoPallet": 596.16,
+                    "pallet": 1,
+                    "volumePallet": 1874114.17,
+                    "larguraPallet": 98.1,
+                    "pesoCamadaPallet": 49.68,
+                    "alturaPalletUm": {
+                      "abrev": "CM",
+                      "baseConvercao": "CM",
+                      "nome": "Centímetro(s)",
+                      "fatorConvercao": 1
+                    },
+                    "larguraPalletUm": {
+                      "abrev": "CM",
+                      "baseConvercao": "CM",
+                      "nome": "Centímetro(s)",
+                      "fatorConvercao": 1
+                    },
+                    "pesoLiquidoForaDaEmbalagemPallet": 527.04,
+                    "alturaPallet": 159.6,
+                    "pesoBrutoPallet": 596.16,
+                    "quantidadeCaixasPallet": 288,
+                    "quantidadeCamadasPallet": 12,
+                    "pesoCamadaPalletUm": {
+                      "abrev": "kg",
+                      "baseConvercao": "g",
+                      "nome": "Quilograma(s)",
+                      "fatorConvercao": 0.001
+                    },
+                    "pesoBrutoPalletUm": {
+                      "abrev": "kg",
+                      "baseConvercao": "g",
+                      "nome": "Quilograma(s)",
+                      "fatorConvercao": 0.001
+                    },
+                    "id": 12648,
+                    "volumePalletUm": {
+                      "abrev": "CM3",
+                      "baseConvercao": "CM3",
+                      "nome": "Centímetro(s) Cúbico(s)",
+                      "fatorConvercao": 1
+                    },
+                    "profundidadePalletUm": {
+                      "abrev": "CM",
+                      "baseConvercao": "CM",
+                      "nome": "Centímetro(s)",
+                      "fatorConvercao": 1
+                    }
+                  }
+                ],
+                "profundidade": 43.5,
+                "volume": 6306.2,
+                "larguraUm": {
+                  "abrev": "CM",
+                  "baseConvercao": "CM",
+                  "nome": "Centímetro(s)",
+                  "fatorConvercao": 1
+                },
+                "unidadeEmbalagem": "CAIXA",
+                "pesoBrutoUm": {
+                  "abrev": "kg",
+                  "baseConvercao": "g",
+                  "nome": "Quilograma(s)",
+                  "fatorConvercao": 0.001
+                },
+                "dadosComerciais": [],
+                "altura": 13.3,
+                "ultimoNivel": "Sim",
+                "alturaUm": {
+                  "abrev": "CM",
+                  "baseConvercao": "CM",
+                  "nome": "Centímetro(s)",
+                  "fatorConvercao": 1
+                },
+                "pesoLiquidoForaDaEmbalagemUm": {
+                  "abrev": "kg",
+                  "baseConvercao": "g",
+                  "nome": "Quilograma(s)",
+                  "fatorConvercao": 0.001
+                },
+                "pesoLiquidoForaDaEmbalagem": 1.83,
+                "pesoBruto": 2.07,
+                "quantidadeTotal": 4,
+                "id": 33143,
+                "quantidade": 4,
+                "nivel": 2,
+                "pesoLiquidoUm": {
+                  "abrev": "kg",
+                  "baseConvercao": "g",
+                  "nome": "Quilograma(s)",
+                  "fatorConvercao": 0.001
+                },
+                "pesoLiquido": 2.07,
+                "volumeUm": {
+                  "abrev": "CM3",
+                  "baseConvercao": "CM3",
+                  "nome": "Centímetro(s) Cúbico(s)",
+                  "fatorConvercao": 1
+                }
+              },
+              {
+                "profundidadeUm": {
+                  "abrev": "MM",
+                  "baseConvercao": "CM",
+                  "nome": "Milímetro(s)",
+                  "fatorConvercao": 10
+                },
+                "unidadeDePedido": "Não",
+                "gtin": "7891150061033",
+                "largura": 106,
+                "profundidade": 106,
+                "volume": 1,
+                "larguraUm": {
+                  "abrev": "MM",
+                  "baseConvercao": "CM",
+                  "nome": "Milímetro(s)",
+                  "fatorConvercao": 10
+                },
+                "unidadeEmbalagem": "UNIDADE",
+                "pesoBrutoUm": {
+                  "abrev": "g",
+                  "baseConvercao": "g",
+                  "nome": "Grama(s)",
+                  "fatorConvercao": 1
+                },
+                "dadosComerciais": [],
+                "altura": 130,
+                "ultimoNivel": "Não",
+                "alturaUm": {
+                  "abrev": "MM",
+                  "baseConvercao": "CM",
+                  "nome": "Milímetro(s)",
+                  "fatorConvercao": 10
+                },
+                "pesoBruto": 515,
+                "quantidadeTotal": 1,
+                "id": 32971,
+                "quantidade": 1,
+                "nivel": 1,
+                "pesoLiquidoUm": {
+                  "abrev": "g",
+                  "baseConvercao": "g",
+                  "nome": "Grama(s)",
+                  "fatorConvercao": 1
+                },
+                "pesoLiquido": 457,
+                "volumeUm": {
+                  "abrev": "UN",
+                  "nome": "Unidade(s)",
+                  "fatorConvercao": 0
+                }
+              }
+            ],
+            "id": 18051,
+            "status": "Active"
+          }
+        ],
+        "operacao": "ADD",
+        "categoriaProduto": {
+          "nome": "Sorvete",
+          "id": 304,
+          "gpc": "10000215"
+        },
+        "paisOrigem": {
+          "nome": "Brasil",
+          "id": 1
+        },
+        "tipoCadastro": "Completo",
+        "fabricante": {
+          "tipoFilial": "Não",
+          "tipoPessoa": "Jurídica",
+          "endereco": {
+            "cidade": "Valinhos",
+            "estado": "SP",
+            "endereco": "Av. Gessy Lever, 99",
+            "bairro": "Centro",
+            "id": 19829,
+            "pais": {
+              "codigo": "BRA",
+              "nome": "Brasil",
+              "id": 1
+            },
+            "cep": "13272000"
+          },
+          "naoHomologado": "Não",
+          "nome": "UNILEVER BRASIL INDUSTRIAL LTDA - MATRIZ",
+          "cnpj": "61068276000104",
+          "publicacao": "Não",
+          "adicionais": {
+            "idFaturamento": "61068276000104"
+          },
+          "tipoFranquia": "Não",
+          "nomeFantasia": "UNILEVER",
+          "tipoFranqueador": "Não",
+          "tipoMatriz": "Sim",
+          "id": 26,
+          "tipoImportador": "Não",
+          "cnpjBarra": "76000104",
+          "tipoFabricante": "Sim",
+          "tipoDistribuidor": "Não"
+        },
+        "empresa": {
+          "tipoFilial": "Não",
+          "tipoPessoa": "Jurídica",
+          "endereco": {
+            "cidade": "Valinhos",
+            "estado": "SP",
+            "endereco": "Av. Gessy Lever, 99",
+            "bairro": "Centro",
+            "id": 19829,
+            "pais": {
+              "codigo": "BRA",
+              "nome": "Brasil",
+              "id": 1
+            },
+            "cep": "13272000"
+          },
+          "naoHomologado": "Não",
+          "nome": "UNILEVER BRASIL INDUSTRIAL LTDA - MATRIZ",
+          "cnpj": "61068276000104",
+          "publicacao": "Não",
+          "adicionais": {
+            "idFaturamento": "61068276000104"
+          },
+          "tipoFranquia": "Não",
+          "nomeFantasia": "UNILEVER",
+          "tipoFranqueador": "Não",
+          "tipoMatriz": "Sim",
+          "id": 26,
+          "tipoImportador": "Não",
+          "cnpjBarra": "76000104",
+          "tipoFabricante": "Sim",
+          "tipoDistribuidor": "Não"
+        },
+        "listaEspecificos": [],
+        "cnpIntegrationStatus": {
+          "nome": "Desconhecido",
+          "id": "NOT_UPDATED"
+        },
+        "versao": 1,
+        "status": {
+          "nome": "Published",
+          "id": "PUBLISHED"
+        }
+      }
+    ]
+  },
+  {
+    "produtos": [
+      {
+        "ultimaAtualizacao": "2023-06-14T11:56:07",
+        "mercadoAlvo": {
+          "nome": "Brasil",
+          "id": 1
+        },
+        "codigoInterno": "Não possui",
+        "origem": {
+          "nome": "0 - Nacional",
+          "id": "NATIONAL"
+        },
+        "idioma": {
+          "nome": "Português",
+          "id": 1
+        },
+        "medidas": {
+          "validadeUm": {
+            "abrev": "DA",
+            "baseConvercao": "DA",
+            "nome": "Dia(s)",
+            "fatorConvercao": 1
+          },
+          "quantidadeUnitario": 1,
+          "pesoBrutoValidado": "Sim",
+          "conteudoLiquidoUm": {
+            "abrev": "ML",
+            "baseConvercao": "ML",
+            "nome": "Mililitro(s)",
+            "fatorConvercao": 1
+          },
+          "quantidadePackKitUm": {
+            "abrev": "UN",
+            "baseConvercao": "",
+            "nome": "Unidade(s)",
+            "fatorConvercao": 0
+          },
+          "larguraUm": {
+            "abrev": "MM",
+            "baseConvercao": "CM",
+            "nome": "Milímetro(s)",
+            "fatorConvercao": 10
+          },
+          "pesoVariavel": "Não",
+          "pesoPadronizado": "Não",
+          "alturaUm": {
+            "abrev": "MM",
+            "baseConvercao": "CM",
+            "nome": "Milímetro(s)",
+            "fatorConvercao": 10
+          },
+          "medidasValidadas": "Sim",
+          "id": 49515,
+          "volumeUm": {
+            "abrev": "UN",
+            "baseConvercao": "",
+            "nome": "Unidade(s)",
+            "fatorConvercao": 0
+          },
+          "profundidadeUm": {
+            "abrev": "MM",
+            "baseConvercao": "CM",
+            "nome": "Milímetro(s)",
+            "fatorConvercao": 10
+          },
+          "naoSeAplicaValidade": "Não",
+          "largura": 58,
+          "medidaVariavel": "Não",
+          "conteudoLiquido": 510,
+          "profundidade": 58,
+          "validade": 120,
+          "quantidadeUnitarioUm": {
+            "abrev": "UN",
+            "baseConvercao": "",
+            "nome": "Unidade(s)",
+            "fatorConvercao": 0
+          },
+          "volume": 1,
+          "pesoBrutoUm": {
+            "abrev": "g",
+            "baseConvercao": "g",
+            "nome": "Grama(s)",
+            "fatorConvercao": 1
+          },
+          "altura": 233,
+          "pesoBruto": 534.8,
+          "validadeIndeterminada": "Não"
+        },
+        "cadastroExpresso": false,
+        "mockUp": "Não",
+        "marca": {
+          "nome": "Sprite",
+          "id": 1514
+        },
+        "statusClassificacaoFiscal": {
+          "nome": "Completed",
+          "id": "COMPLETED"
+        },
+        "dataCadastroDados": "2018-08-15T11:14:33",
+        "listaVariavel": [
+          {
+            "categoria": "DADOS_GERAIS",
+            "valor": "Água gaseificada, suco de limão, aroma natural, conservadores sorbato de potássio e benzoato de sódio, edulcorantes aspartame (21 mg) e acesulfame de potássio (5 mg) por 100 ml, regulador de acidez ácido cítrico, sequestrante EDTA cálcio dissódico.",
+            "rotulo": "Ingredientes",
+            "atributo": "ingredientes"
+          },
+          {
+            "categoria": "SAC",
+            "valor": "0800 021 2121",
+            "rotulo": "Telefone",
+            "atributo": "telefone"
+          },
+          {
+            "categoria": "ALERGICOS",
+            "valor": "Não Contém",
+            "rotulo": "Contém Lactose",
+            "atributo": "contem-lactose"
+          },
+          {
+            "categoria": "CONS_SERV",
+            "valor": "Não congelar",
+            "rotulo": "Conservação",
+            "atributo": "conservacao"
+          },
+          {
+            "categoria": "ALERGICOS",
+            "valor": "Não Contém",
+            "rotulo": "Contém Glúten",
+            "atributo": "contem-gluten"
+          },
+          {
+            "categoria": "ALERGICOS",
+            "valor": "Contém",
+            "rotulo": "Contém Fenilalanina",
+            "atributo": "contem-fenilalanina"
+          },
+          {
+            "categoria": "DADOS_GERAIS",
+            "valor": "2,5% de suco.\nLevemente gaseificado.\nVolume modificado de 600ml para 510ml (redução de 90ml ou 15%).",
+            "rotulo": "Informação Complementar",
+            "atributo": "informacao-complementar"
+          },
+          {
+            "categoria": "REGISTROS",
+            "valor": "DF 000035-3.000003",
+            "rotulo": "Registro MAPA (M.A)- 1",
+            "atributo": "registro-mapa"
+          },
+          {
+            "categoria": "CONS_SERV",
+            "valor": "0",
+            "rotulo": "Temperatura Mínima",
+            "atributo": "temperatura-minima"
+          },
+          {
+            "categoria": "CONS_SERV",
+            "valor": "Grau(s) Celsius",
+            "rotulo": "Temperatura Mínima",
+            "atributo": "temperatura-minima.um.nome"
+          },
+          {
+            "categoria": "CONS_SERV",
+            "valor": "CE",
+            "rotulo": "Temperatura Mínima",
+            "atributo": "temperatura-minima.um.abrev"
+          },
+          {
+            "categoria": "CONS_SERV",
+            "valor": "30",
+            "rotulo": "Temperatura Máxima",
+            "atributo": "temperatura-maxima"
+          },
+          {
+            "categoria": "CONS_SERV",
+            "valor": "Grau(s) Celsius",
+            "rotulo": "Temperatura Máxima",
+            "atributo": "temperatura-maxima.um.nome"
+          },
+          {
+            "categoria": "CONS_SERV",
+            "valor": "CE",
+            "rotulo": "Temperatura Máxima",
+            "atributo": "temperatura-maxima.um.abrev"
+          },
+          {
+            "categoria": "CONS_SERV",
+            "valor": "Inodoro;Temperatura Ambiente;Arejado;Seco;Limpo",
+            "rotulo": "Armazenagem (Local)",
+            "atributo": "armazenagem-local"
+          },
+          {
+            "categoria": "SELOS_CERTIF",
+            "valor": "Não",
+            "rotulo": "IBD Certificado Orgânico",
+            "atributo": "ibd-certificado-organico"
+          },
+          {
+            "categoria": "DADOS_GERAIS",
+            "valor": "Não Contém",
+            "rotulo": "Corante Artificial",
+            "atributo": "corante-artificial"
+          },
+          {
+            "categoria": "BEBIDAS_NAO_ALCOOLICAS",
+            "valor": "Lemon Fresh",
+            "rotulo": "Sabor",
+            "atributo": "sabor"
+          },
+          {
+            "categoria": "BEBIDAS_NAO_ALCOOLICAS",
+            "valor": "Não",
+            "rotulo": "Light",
+            "atributo": "produto-light"
+          },
+          {
+            "categoria": "BEBIDAS_NAO_ALCOOLICAS",
+            "valor": "Não",
+            "rotulo": "Diet",
+            "atributo": "produto-diet"
+          },
+          {
+            "categoria": "BEBIDAS_NAO_ALCOOLICAS",
+            "valor": "Não",
+            "rotulo": "Sem Adição de Açúcar",
+            "atributo": "produto-sem-adicao-de-acucar"
+          },
+          {
+            "categoria": "BEBIDAS_NAO_ALCOOLICAS",
+            "valor": "Sim",
+            "rotulo": "Zero Açúcar",
+            "atributo": "produto-zero-acucar"
+          },
+          {
+            "categoria": "BEBIDAS_NAO_ALCOOLICAS",
+            "valor": "Sim",
+            "rotulo": "Zero Calorias",
+            "atributo": "produto-zero-calorias"
+          },
+          {
+            "categoria": "BEBIDAS_NAO_ALCOOLICAS",
+            "valor": "Não",
+            "rotulo": "Desnatado",
+            "atributo": "produto-desnatado"
+          },
+          {
+            "categoria": "DADOS_GERAIS",
+            "valor": "Refrigerante",
+            "rotulo": "Nome Principal do Item",
+            "atributo": "nome-principal-do-item"
+          },
+          {
+            "categoria": "DADOS_GERAIS",
+            "valor": "Contém",
+            "rotulo": "Conservantes",
+            "atributo": "conservantes"
+          },
+          {
+            "categoria": "DADOS_GERAIS",
+            "valor": "Não",
+            "rotulo": "Vegano",
+            "atributo": "produto-vegano"
+          },
+          {
+            "categoria": "DADOS_GERAIS",
+            "valor": "Não",
+            "rotulo": "Orgânico",
+            "atributo": "produto-organico"
+          },
+          {
+            "categoria": "DADOS_GERAIS",
+            "valor": "Não",
+            "rotulo": "Tamanho/Refil/Embalagem Econômica",
+            "atributo": "tamanho-refil-embalagem-economica"
+          },
+          {
+            "categoria": "BEBIDAS_NAO_ALCOOLICAS",
+            "valor": "Sim",
+            "rotulo": "Produto de Baixa Caloria",
+            "atributo": "produto-de-baixa-caloria"
+          },
+          {
+            "categoria": "REGISTROS",
+            "valor": "28/04/2027",
+            "rotulo": "Validade MAPA- 1",
+            "atributo": "validade-registro-mapa"
+          },
+          {
+            "categoria": "ALERGICOS",
+            "valor": "Natural",
+            "rotulo": "Aromatizante",
+            "atributo": "aromatizante"
+          },
+          {
+            "categoria": "DADOS_GERAIS",
+            "valor": "Não Contém",
+            "rotulo": "Corante",
+            "atributo": "corante"
+          },
+          {
+            "categoria": "REGISTROS",
+            "valor": "AM 000090-6.000012",
+            "rotulo": "Registro MAPA (M.A)- 2",
+            "atributo": "registro-mapa-m-a-2"
+          },
+          {
+            "categoria": "REGISTROS",
+            "valor": "25/06/2027",
+            "rotulo": "Validade MAPA- 2",
+            "atributo": "validade-mapa-2"
+          },
+          {
+            "categoria": "REGISTROS",
+            "valor": "CE 000411-1.000019",
+            "rotulo": "Registro MAPA (M.A)- 3",
+            "atributo": "registro-mapa3"
+          },
+          {
+            "categoria": "REGISTROS",
+            "valor": "17/04/2027",
+            "rotulo": "Validade MAPA- 3",
+            "atributo": "validade-mapa-3"
+          },
+          {
+            "categoria": "REGISTROS",
+            "valor": "GO 000311-5.000010",
+            "rotulo": "Registro MAPA (M.A)- 4",
+            "atributo": "registro-mapa4"
+          },
+          {
+            "categoria": "REGISTROS",
+            "valor": "28/02/2029",
+            "rotulo": "Validade MAPA- 4",
+            "atributo": "validade-mapa-4"
+          },
+          {
+            "categoria": "REGISTROS",
+            "valor": "RJ 000449-9.000012",
+            "rotulo": "Registro MAPA (M.A)- 5",
+            "atributo": "registro-mapa-5"
+          },
+          {
+            "categoria": "REGISTROS",
+            "valor": "22/09/2026",
+            "rotulo": "Validade MAPA- 5",
+            "atributo": "validade-mapa-5"
+          },
+          {
+            "categoria": "REGISTROS",
+            "valor": "SP 000459-6.000014",
+            "rotulo": "Registro MAPA (M.A)- 6",
+            "atributo": "registro-mapa-6"
+          },
+          {
+            "categoria": "REGISTROS",
+            "valor": "15/05/2027",
+            "rotulo": "Validade MAPA- 6",
+            "atributo": "validade-registro-mapa-6"
+          },
+          {
+            "categoria": "REGISTROS",
+            "valor": "MG 000296-8.000026",
+            "rotulo": "Registro MAPA (M.A)- 7",
+            "atributo": "registro-mapa-7"
+          },
+          {
+            "categoria": "REGISTROS",
+            "valor": "03/08/2027",
+            "rotulo": "Validade MAPA- 7",
+            "atributo": "validade-registro-mapa-7"
+          },
+          {
+            "categoria": "REGISTROS",
+            "valor": "SP 001078-2.000008",
+            "rotulo": "Registro MAPA (M.A)- 8",
+            "atributo": "registro-mapa-8"
+          },
+          {
+            "categoria": "REGISTROS",
+            "valor": "19/06/2028",
+            "rotulo": "Validade MAPA- 8",
+            "atributo": "validade-registro-mapa-8"
+          },
+          {
+            "categoria": "DADOS_GERAIS",
+            "valor": "Dentro do Prazo de Adequação",
+            "rotulo": "Rotulagem Nutricional Frontal",
+            "atributo": "Rotulagem-Nutricional-Frontal"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "200",
+            "rotulo": "Porção",
+            "atributo": "porcao"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "Mililitro(s)",
+            "rotulo": "Porção",
+            "atributo": "porcao.um.nome"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "ML",
+            "rotulo": "Porção",
+            "atributo": "porcao.um.abrev"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "1 copo",
+            "rotulo": "Porção Equivalente a",
+            "atributo": "porcao-equivalente-a"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "* Percentual de valores diários fornecidos pela porção. Não contém quantidades significativas de proteínas, gorduras totais, gorduras saturadas, gorduras trans e fibras alimentares.",
+            "rotulo": "Referência para Valores Diários",
+            "atributo": "referencia-para-valores-diarios"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "Sim",
+            "rotulo": "Possui Informações Nutricionais",
+            "atributo": "possui-informacoes-nutricionais"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "Dentro do Prazo de Adequação",
+            "rotulo": "Tabela Nutricional - RDC 429",
+            "atributo": "Tabela-Nutricional-RDC-429"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "0",
+            "rotulo": "Carboidratos",
+            "atributo": "carboidratos"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "Grama(s)",
+            "rotulo": "Carboidratos",
+            "atributo": "carboidratos.um.nome"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "g",
+            "rotulo": "Carboidratos",
+            "atributo": "carboidratos.um.abrev"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "0",
+            "rotulo": "%VD Carboidratos",
+            "atributo": "percentagem-vd-carboidratos"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "0",
+            "rotulo": "Valor Energético (kcal)",
+            "atributo": "valor-energetico-kcal"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "0",
+            "rotulo": "%VD Valor Energético",
+            "atributo": "percentagem-vd-valor-energetico"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "12",
+            "rotulo": "Sódio",
+            "atributo": "sodio"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "Miligrama(s)",
+            "rotulo": "Sódio",
+            "atributo": "sodio.um.nome"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "MG",
+            "rotulo": "Sódio",
+            "atributo": "sodio.um.abrev"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "1",
+            "rotulo": "%VD Sódio",
+            "atributo": "percentagem-vd-sodio"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "0",
+            "rotulo": "Açúcares Adicionados",
+            "atributo": "acucares-adicionados"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "Grama(s)",
+            "rotulo": "Açúcares Adicionados",
+            "atributo": "acucares-adicionados.um.nome"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "g",
+            "rotulo": "Açúcares Adicionados",
+            "atributo": "acucares-adicionados.um.abrev"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "0",
+            "rotulo": "%VD Açúcares Adicionados",
+            "atributo": "vd-acucares-adicionados"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "0",
+            "rotulo": "Açúcares Totais",
+            "atributo": "acucares-totais"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "Grama(s)",
+            "rotulo": "Açúcares Totais",
+            "atributo": "acucares-totais.um.nome"
+          },
+          {
+            "categoria": "INF_NUTRIC",
+            "valor": "g",
+            "rotulo": "Açúcares Totais",
+            "atributo": "acucares-totais.um.abrev"
+          }
+        ],
+        "embalagemProduto": {
+          "aguardandoCorrecao": "Não",
+          "nome": "Garrafa",
+          "id": 19
+        },
+        "preLancamento": "Não",
+        "embalagem": {
+          "nome": "UNIDADE",
+          "id": 1
+        },
+        "id": 39521,
+        "dataCadastro": "2018-08-14T14:47:10",
+        "descricaoCurta": "Sprite Fresh Limão PET 510ml 6U FL",
+        "ativos": [
+          {
+            "codigo": "1",
+            "variacaoAtivo": "1",
+            "ultimaAtualizacao": "2020-05-14 16:57:46.0",
+            "nomeAtivo": "7894900680508_1_1_3000_300_SRGB.tif",
+            "largura": "3000",
+            "url": "https://link-validate.simplustec.com.br/image-link-generator/?name=7894900680508_1_1_3000_300_SRGB.tif&hash=353145f15dacfe5465ac5ce86381f4ae",
+            "descricao": "7894900680508_1_1_3000_300_SRGB.tif",
+            "tipoAtivo": "tif",
+            "altura": 3000,
+            "id": 267688,
+            "DPI": "300",
+            "padraoCor": "SRGB",
+            "versao": 1
+          },
+          {
+            "codigo": "1",
+            "variacaoAtivo": "1",
+            "ultimaAtualizacao": "2020-05-14 16:57:46.0",
+            "nomeAtivo": "7894900680508_1_1_1200_72_SRGB.png",
+            "largura": "1200",
+            "url": "https://link-validate.simplustec.com.br/image-link-generator/?name=7894900680508_1_1_1200_72_SRGB.png&hash=d96cb3aa24226d1748752911f57a0a37",
+            "descricao": "7894900680508_1_1_1200_72_SRGB.png",
+            "tipoAtivo": "png",
+            "altura": 1200,
+            "id": 267688,
+            "DPI": "72",
+            "padraoCor": "SRGB",
+            "versao": 1
+          },
+          {
+            "codigo": "1",
+            "variacaoAtivo": "1",
+            "ultimaAtualizacao": "2020-05-14 16:57:46.0",
+            "nomeAtivo": "7894900680508_1_1_1200_300_SRGB.jpg",
+            "largura": "1200",
+            "url": "https://link-validate.simplustec.com.br/image-link-generator/?name=7894900680508_1_1_1200_300_SRGB.jpg&hash=85adff709a60d7ce5b9255493a14b858",
+            "descricao": "7894900680508_1_1_1200_300_SRGB.jpg",
+            "tipoAtivo": "jpg",
+            "altura": 1200,
+            "id": 267688,
+            "DPI": "300",
+            "padraoCor": "SRGB",
+            "versao": 1
+          },
+          {
+            "codigo": "7",
+            "variacaoAtivo": "1",
+            "ultimaAtualizacao": "2020-05-14 16:57:49.0",
+            "nomeAtivo": "7894900680508_7_1_3000_300_SRGB.tif",
+            "largura": "3000",
+            "url": "https://link-validate.simplustec.com.br/image-link-generator/?name=7894900680508_7_1_3000_300_SRGB.tif&hash=94305d640a6cc4d8015458bbe43e38d3",
+            "descricao": "7894900680508_7_1_3000_300_SRGB.tif",
+            "tipoAtivo": "tif",
+            "altura": 3000,
+            "id": 267696,
+            "DPI": "300",
+            "padraoCor": "SRGB",
+            "versao": 1
+          },
+          {
+            "codigo": "7",
+            "variacaoAtivo": "1",
+            "ultimaAtualizacao": "2020-05-14 16:57:49.0",
+            "nomeAtivo": "7894900680508_7_1_1200_72_SRGB.png",
+            "largura": "1200",
+            "url": "https://link-validate.simplustec.com.br/image-link-generator/?name=7894900680508_7_1_1200_72_SRGB.png&hash=5ad91172c9a341c5322d6d99d9e29d24",
+            "descricao": "7894900680508_7_1_1200_72_SRGB.png",
+            "tipoAtivo": "png",
+            "altura": 1200,
+            "id": 267696,
+            "DPI": "72",
+            "padraoCor": "SRGB",
+            "versao": 1
+          },
+          {
+            "codigo": "7",
+            "variacaoAtivo": "1",
+            "ultimaAtualizacao": "2020-05-14 16:57:49.0",
+            "nomeAtivo": "7894900680508_7_1_1200_300_SRGB.jpg",
+            "largura": "1200",
+            "url": "https://link-validate.simplustec.com.br/image-link-generator/?name=7894900680508_7_1_1200_300_SRGB.jpg&hash=6cd177b0aae29be88de1827ed30eb17a",
+            "descricao": "7894900680508_7_1_1200_300_SRGB.jpg",
+            "tipoAtivo": "jpg",
+            "altura": 1200,
+            "id": 267696,
+            "DPI": "300",
+            "padraoCor": "SRGB",
+            "versao": 1
+          }
+        ],
+        "imagemPrincipal": {
+          "codigo": "1",
+          "variacaoAtivo": "1",
+          "ultimaAtualizacao": "2020-05-14 16:57:46.0",
+          "nomeAtivo": "7894900680508_1_1_1200_300_RGB.png",
+          "largura": "1200",
+          "url": "https://link-validate.simplustec.com.br/image-link-generator/?name=7894900680508_1_1_1200_300_RGB.png&hash=a33ed2dd38f58d33e046d6eee6c1257e",
+          "descricao": "7894900680508_1_1_1200_300_RGB.png",
+          "tipoAtivo": "png",
+          "altura": 1200,
+          "id": 267688,
+          "DPI": "300",
+          "padraoCor": "RGB",
+          "versao": 1
+        },
+        "classificacaoFiscal": {
+          "ncm": "22021000",
+          "id": 69827,
+          "cestCodigo": "0301001"
+        },
+        "gtin": "7894900680508",
+        "contatos": [],
+        "fornecedores": [
+          {
+            "ultimaAtualizacao": "2024-05-07T08:21:11",
+            "codigoInterno": "56416",
+            "composicoesLogisticas": [
+              {
+                "composicao": 3,
+                "isEnabled": true,
+                "niveis": [
+                  {
+                    "profundidadeUm": {
+                      "abrev": "CM",
+                      "baseConvercao": "CM",
+                      "nome": "Centímetro(s)",
+                      "fatorConvercao": 1
+                    },
+                    "unidadeDePedido": "Não",
+                    "gtin": "27894900680502",
+                    "largura": 23.7,
+                    "paletizacoes": [
+                      {
+                        "pesoLiquidoForaDaEmbalagemPalletUm": {
+                          "abrev": "kg",
+                          "baseConvercao": "g",
+                          "nome": "Quilograma(s)",
+                          "fatorConvercao": 0.001
+                        },
+                        "profundidadePallet": 124.6,
+                        "pesoLiquidoPalletUm": {
+                          "abrev": "kg",
+                          "baseConvercao": "g",
+                          "nome": "Quilograma(s)",
+                          "fatorConvercao": 0.001
+                        },
+                        "caixasCamada": 28,
+                        "pesoLiquidoPallet": 1279.4,
+                        "pallet": 1,
+                        "volumePallet": 2201682,
+                        "larguraPallet": 100,
+                        "pesoCamadaPallet": 179.2,
+                        "alturaPalletUm": {
+                          "abrev": "CM",
+                          "baseConvercao": "CM",
+                          "nome": "Centímetro(s)",
+                          "fatorConvercao": 1
+                        },
+                        "larguraPalletUm": {
+                          "abrev": "CM",
+                          "baseConvercao": "CM",
+                          "nome": "Centímetro(s)",
+                          "fatorConvercao": 1
+                        },
+                        "alturaPallet": 176.7,
+                        "pesoBrutoPallet": 1279.4,
+                        "quantidadeCaixasPallet": 196,
+                        "quantidadeCamadasPallet": 7,
+                        "pesoCamadaPalletUm": {
+                          "abrev": "kg",
+                          "baseConvercao": "g",
+                          "nome": "Quilograma(s)",
+                          "fatorConvercao": 0.001
+                        },
+                        "pesoBrutoPalletUm": {
+                          "abrev": "kg",
+                          "baseConvercao": "g",
+                          "nome": "Quilograma(s)",
+                          "fatorConvercao": 0.001
+                        },
+                        "id": 764974,
+                        "volumePalletUm": {
+                          "abrev": "CM3",
+                          "baseConvercao": "CM3",
+                          "nome": "Centímetro(s) Cúbico(s)",
+                          "fatorConvercao": 1
+                        },
+                        "profundidadePalletUm": {
+                          "abrev": "CM",
+                          "baseConvercao": "CM",
+                          "nome": "Centímetro(s)",
+                          "fatorConvercao": 1
+                        }
+                      }
+                    ],
+                    "profundidade": 17.8,
+                    "volume": 9744.97,
+                    "larguraUm": {
+                      "abrev": "CM",
+                      "baseConvercao": "CM",
+                      "nome": "Centímetro(s)",
+                      "fatorConvercao": 1
+                    },
+                    "unidadeEmbalagem": "FARDO",
+                    "pesoBrutoUm": {
+                      "abrev": "kg",
+                      "baseConvercao": "g",
+                      "nome": "Quilograma(s)",
+                      "fatorConvercao": 0.001
+                    },
+                    "dadosComerciais": [],
+                    "altura": 23.1,
+                    "ultimoNivel": "Sim",
+                    "alturaUm": {
+                      "abrev": "CM",
+                      "baseConvercao": "CM",
+                      "nome": "Centímetro(s)",
+                      "fatorConvercao": 1
+                    },
+                    "pesoLiquidoForaDaEmbalagemUm": {
+                      "abrev": "kg",
+                      "baseConvercao": "g",
+                      "nome": "Quilograma(s)",
+                      "fatorConvercao": 0.001
+                    },
+                    "pesoBruto": 6.4,
+                    "quantidadeTotal": 12,
+                    "id": 1281133,
+                    "quantidade": 12,
+                    "nivel": 2,
+                    "pesoLiquidoUm": {
+                      "abrev": "kg",
+                      "baseConvercao": "g",
+                      "nome": "Quilograma(s)",
+                      "fatorConvercao": 0.001
+                    },
+                    "pesoLiquido": 6.4,
+                    "volumeUm": {
+                      "abrev": "CM3",
+                      "baseConvercao": "CM3",
+                      "nome": "Centímetro(s) Cúbico(s)",
+                      "fatorConvercao": 1
+                    }
+                  },
+                  {
+                    "profundidadeUm": {
+                      "abrev": "MM",
+                      "baseConvercao": "CM",
+                      "nome": "Milímetro(s)",
+                      "fatorConvercao": 10
+                    },
+                    "unidadeDePedido": "Não",
+                    "gtin": "7894900680508",
+                    "largura": 58,
+                    "profundidade": 58,
+                    "volume": 1,
+                    "larguraUm": {
+                      "abrev": "MM",
+                      "baseConvercao": "CM",
+                      "nome": "Milímetro(s)",
+                      "fatorConvercao": 10
+                    },
+                    "unidadeEmbalagem": "UNIDADE",
+                    "pesoBrutoUm": {
+                      "abrev": "g",
+                      "baseConvercao": "g",
+                      "nome": "Grama(s)",
+                      "fatorConvercao": 1
+                    },
+                    "dadosComerciais": [],
+                    "altura": 233,
+                    "ultimoNivel": "Não",
+                    "alturaUm": {
+                      "abrev": "MM",
+                      "baseConvercao": "CM",
+                      "nome": "Milímetro(s)",
+                      "fatorConvercao": 10
+                    },
+                    "pesoBruto": 534.8,
+                    "quantidadeTotal": 1,
+                    "id": 1281132,
+                    "quantidade": 1,
+                    "nivel": 1,
+                    "volumeUm": {
+                      "abrev": "UN",
+                      "nome": "Unidade(s)",
+                      "fatorConvercao": 0
+                    }
+                  }
+                ],
+                "id": 669032,
+                "status": "Active"
+              }
+            ],
+            "fornecedor": {
+              "tipoFilial": "Não",
+              "tipoPessoa": "Jurídica",
+              "endereco": {
+                "cidade": "São Paulo",
+                "estado": "SP",
+                "endereco": "Av. Engº Alberto de Zagottis 352",
+                "bairro": "Jurubatuba",
+                "id": 31405,
+                "pais": {
+                  "codigo": "BRA",
+                  "nome": "Brasil",
+                  "id": 1
+                },
+                "cep": "04675-901"
+              },
+              "gln": "7896371010044",
+              "naoHomologado": "Não",
+              "nome": "SPAL IND BRASILEIRA DE BEBIDAS SA - FEMSA",
+              "cnpj": "61186888000193",
+              "publicacao": "Não",
+              "adicionais": {},
+              "tipoFranquia": "Sim",
+              "nomeFantasia": "FEMSA",
+              "tipoFranqueador": "Não",
+              "tipoMatriz": "Não",
+              "id": 3090,
+              "tipoImportador": "Não",
+              "cnpjBarra": "000193",
+              "tipoFabricante": "Não",
+              "tipoDistribuidor": "Não"
+            },
+            "dataCadastro": "2019-04-03T03:35:09",
+            "pRefId": 72400,
+            "status": {
+              "nome": "Published",
+              "id": "PUBLISHED"
+            }
+          }
+        ],
+        "descricaoLonga": "Refrigerante Lemon Fresh Zero Açúcar Sprite Garrafa 510ml",
+        "ultimaAtualizacaoImg": "2020-05-13T22:58:46",
+        "categoriaPai": {
+          "nome": "BEBIDAS",
+          "id": 289
+        },
+        "descricao": "Refrigerante Lemon Fresh Zero Açúcar Sprite Garrafa 510ml",
+        "submarca": {},
+        "composicoesLogisticas": [
+          {
+            "composicao": 1,
+            "isEnabled": true,
+            "niveis": [
+              {
+                "profundidadeUm": {
+                  "abrev": "CM",
+                  "baseConvercao": "CM",
+                  "nome": "Centímetro(s)",
+                  "fatorConvercao": 1
+                },
+                "unidadeDePedido": "Não",
+                "gtin": "17894900680512",
+                "largura": 11.9,
+                "paletizacoes": [
+                  {
+                    "profundidadePallet": 118.7,
+                    "pesoLiquidoPalletUm": {
+                      "abrev": "kg",
+                      "baseConvercao": "g",
+                      "nome": "Quilograma(s)",
+                      "fatorConvercao": 0.001
+                    },
+                    "caixasCamada": 56,
+                    "pesoLiquidoPallet": 1142.4,
+                    "pallet": 1,
+                    "volumePallet": 1850420.24,
+                    "larguraPallet": 100.9,
+                    "pesoCamadaPallet": 190.4,
+                    "alturaPalletUm": {
+                      "abrev": "CM",
+                      "baseConvercao": "CM",
+                      "nome": "Centímetro(s)",
+                      "fatorConvercao": 1
+                    },
+                    "larguraPalletUm": {
+                      "abrev": "CM",
+                      "baseConvercao": "CM",
+                      "nome": "Centímetro(s)",
+                      "fatorConvercao": 1
+                    },
+                    "alturaPallet": 154.5,
+                    "pesoBrutoPallet": 1142.4,
+                    "quantidadeCaixasPallet": 336,
+                    "quantidadeCamadasPallet": 6,
+                    "pesoCamadaPalletUm": {
+                      "abrev": "kg",
+                      "baseConvercao": "g",
+                      "nome": "Quilograma(s)",
+                      "fatorConvercao": 0.001
+                    },
+                    "pesoBrutoPalletUm": {
+                      "abrev": "kg",
+                      "baseConvercao": "g",
+                      "nome": "Quilograma(s)",
+                      "fatorConvercao": 0.001
+                    },
+                    "id": 12766,
+                    "volumePalletUm": {
+                      "abrev": "CM3",
+                      "baseConvercao": "CM3",
+                      "nome": "Centímetro(s) Cúbico(s)",
+                      "fatorConvercao": 1
+                    },
+                    "profundidadePalletUm": {
+                      "abrev": "CM",
+                      "baseConvercao": "CM",
+                      "nome": "Centímetro(s)",
+                      "fatorConvercao": 1
+                    }
+                  },
+                  {
+                    "pesoLiquidoForaDaEmbalagemPalletUm": {
+                      "abrev": "kg",
+                      "baseConvercao": "g",
+                      "nome": "Quilograma(s)",
+                      "fatorConvercao": 0.001
+                    },
+                    "profundidadePallet": 120,
+                    "pesoLiquidoPalletUm": {
+                      "abrev": "kg",
+                      "baseConvercao": "g",
+                      "nome": "Quilograma(s)",
+                      "fatorConvercao": 0.001
+                    },
+                    "caixasCamada": 45,
+                    "pesoLiquidoPallet": 909.9,
+                    "pallet": 2,
+                    "volumePallet": 2007600,
+                    "larguraPallet": 100,
+                    "pesoCamadaPallet": 153,
+                    "alturaPalletUm": {
+                      "abrev": "CM",
+                      "baseConvercao": "CM",
+                      "nome": "Centímetro(s)",
+                      "fatorConvercao": 1
+                    },
+                    "larguraPalletUm": {
+                      "abrev": "CM",
+                      "baseConvercao": "CM",
+                      "nome": "Centímetro(s)",
+                      "fatorConvercao": 1
+                    },
+                    "alturaPallet": 167.3,
+                    "pesoBrutoPallet": 1092,
+                    "quantidadeCaixasPallet": 270,
+                    "quantidadeCamadasPallet": 6,
+                    "pesoCamadaPalletUm": {
+                      "abrev": "kg",
+                      "baseConvercao": "g",
+                      "nome": "Quilograma(s)",
+                      "fatorConvercao": 0.001
+                    },
+                    "pesoBrutoPalletUm": {
+                      "abrev": "kg",
+                      "baseConvercao": "g",
+                      "nome": "Quilograma(s)",
+                      "fatorConvercao": 0.001
+                    },
+                    "id": 275903,
+                    "volumePalletUm": {
+                      "abrev": "CM3",
+                      "baseConvercao": "CM3",
+                      "nome": "Centímetro(s) Cúbico(s)",
+                      "fatorConvercao": 1
+                    },
+                    "profundidadePalletUm": {
+                      "abrev": "CM",
+                      "baseConvercao": "CM",
+                      "nome": "Centímetro(s)",
+                      "fatorConvercao": 1
+                    }
+                  }
+                ],
+                "profundidade": 17.8,
+                "volume": 4977.77,
+                "larguraUm": {
+                  "abrev": "CM",
+                  "baseConvercao": "CM",
+                  "nome": "Centímetro(s)",
+                  "fatorConvercao": 1
+                },
+                "unidadeEmbalagem": "FARDO",
+                "pesoBrutoUm": {
+                  "abrev": "kg",
+                  "baseConvercao": "g",
+                  "nome": "Quilograma(s)",
+                  "fatorConvercao": 0.001
+                },
+                "dadosComerciais": [],
+                "altura": 23.5,
+                "ultimoNivel": "Sim",
+                "alturaUm": {
+                  "abrev": "CM",
+                  "baseConvercao": "CM",
+                  "nome": "Centímetro(s)",
+                  "fatorConvercao": 1
+                },
+                "pesoBruto": 3.4,
+                "quantidadeTotal": 6,
+                "id": 33368,
+                "quantidade": 6,
+                "nivel": 2,
+                "pesoLiquidoUm": {
+                  "abrev": "kg",
+                  "baseConvercao": "g",
+                  "nome": "Quilograma(s)",
+                  "fatorConvercao": 0.001
+                },
+                "pesoLiquido": 3.21,
+                "volumeUm": {
+                  "abrev": "CM3",
+                  "baseConvercao": "CM3",
+                  "nome": "Centímetro(s) Cúbico(s)",
+                  "fatorConvercao": 1
+                }
+              },
+              {
+                "profundidadeUm": {
+                  "abrev": "MM",
+                  "baseConvercao": "CM",
+                  "nome": "Milímetro(s)",
+                  "fatorConvercao": 10
+                },
+                "unidadeDePedido": "Não",
+                "gtin": "7894900680508",
+                "largura": 58,
+                "profundidade": 58,
+                "volume": 1,
+                "larguraUm": {
+                  "abrev": "MM",
+                  "baseConvercao": "CM",
+                  "nome": "Milímetro(s)",
+                  "fatorConvercao": 10
+                },
+                "unidadeEmbalagem": "UNIDADE",
+                "pesoBrutoUm": {
+                  "abrev": "g",
+                  "baseConvercao": "g",
+                  "nome": "Grama(s)",
+                  "fatorConvercao": 1
+                },
+                "dadosComerciais": [],
+                "altura": 233,
+                "ultimoNivel": "Não",
+                "alturaUm": {
+                  "abrev": "MM",
+                  "baseConvercao": "CM",
+                  "nome": "Milímetro(s)",
+                  "fatorConvercao": 10
+                },
+                "pesoBruto": 534.8,
+                "quantidadeTotal": 1,
+                "id": 33354,
+                "quantidade": 1,
+                "nivel": 1,
+                "volumeUm": {
+                  "abrev": "UN",
+                  "nome": "Unidade(s)",
+                  "fatorConvercao": 0
+                }
+              }
+            ],
+            "id": 18267,
+            "status": "Active"
+          },
+          {
+            "composicao": 2,
+            "isEnabled": true,
+            "niveis": [
+              {
+                "profundidadeUm": {
+                  "abrev": "CM",
+                  "baseConvercao": "CM",
+                  "nome": "Centímetro(s)",
+                  "fatorConvercao": 1
+                },
+                "unidadeDePedido": "Não",
+                "gtin": "7894900680546",
+                "largura": 17.85,
+                "paletizacoes": [
+                  {
+                    "pesoLiquidoForaDaEmbalagemPalletUm": {
+                      "abrev": "kg",
+                      "baseConvercao": "g",
+                      "nome": "Quilograma(s)",
+                      "fatorConvercao": 0.001
+                    },
+                    "profundidadePallet": 120,
+                    "pesoLiquidoPalletUm": {
+                      "abrev": "kg",
+                      "baseConvercao": "g",
+                      "nome": "Quilograma(s)",
+                      "fatorConvercao": 0.001
+                    },
+                    "caixasCamada": 28,
+                    "pesoLiquidoPallet": 621.32,
+                    "pallet": 1,
+                    "volumePallet": 999600,
+                    "larguraPallet": 100,
+                    "pesoCamadaPallet": 88.76,
+                    "alturaPalletUm": {
+                      "abrev": "CM",
+                      "baseConvercao": "CM",
+                      "nome": "Centímetro(s)",
+                      "fatorConvercao": 1
+                    },
+                    "larguraPalletUm": {
+                      "abrev": "CM",
+                      "baseConvercao": "CM",
+                      "nome": "Centímetro(s)",
+                      "fatorConvercao": 1
+                    },
+                    "alturaPallet": 83.3,
+                    "pesoBrutoPallet": 621.32,
+                    "quantidadeCaixasPallet": 196,
+                    "quantidadeCamadasPallet": 7,
+                    "pesoCamadaPalletUm": {
+                      "abrev": "kg",
+                      "baseConvercao": "g",
+                      "nome": "Quilograma(s)",
+                      "fatorConvercao": 0.001
+                    },
+                    "pesoBrutoPalletUm": {
+                      "abrev": "kg",
+                      "baseConvercao": "g",
+                      "nome": "Quilograma(s)",
+                      "fatorConvercao": 0.001
+                    },
+                    "id": 188893,
+                    "volumePalletUm": {
+                      "abrev": "CM3",
+                      "baseConvercao": "CM3",
+                      "nome": "Centímetro(s) Cúbico(s)",
+                      "fatorConvercao": 1
+                    },
+                    "profundidadePalletUm": {
+                      "abrev": "CM",
+                      "baseConvercao": "CM",
+                      "nome": "Centímetro(s)",
+                      "fatorConvercao": 1
+                    }
+                  }
+                ],
+                "profundidade": 23.7,
+                "volume": 5034.24,
+                "larguraUm": {
+                  "abrev": "CM",
+                  "baseConvercao": "CM",
+                  "nome": "Centímetro(s)",
+                  "fatorConvercao": 1
+                },
+                "unidadeEmbalagem": "FARDO",
+                "pesoBrutoUm": {
+                  "abrev": "kg",
+                  "baseConvercao": "g",
+                  "nome": "Quilograma(s)",
+                  "fatorConvercao": 0.001
+                },
+                "dadosComerciais": [],
+                "altura": 11.9,
+                "ultimoNivel": "Sim",
+                "alturaUm": {
+                  "abrev": "CM",
+                  "baseConvercao": "CM",
+                  "nome": "Centímetro(s)",
+                  "fatorConvercao": 1
+                },
+                "pesoLiquidoForaDaEmbalagemUm": {
+                  "abrev": "kg",
+                  "baseConvercao": "g",
+                  "nome": "Quilograma(s)",
+                  "fatorConvercao": 0.001
+                },
+                "pesoBruto": 3.17,
+                "quantidadeTotal": 12,
+                "id": 403220,
+                "quantidade": 12,
+                "nivel": 2,
+                "pesoLiquidoUm": {
+                  "abrev": "kg",
+                  "baseConvercao": "g",
+                  "nome": "Quilograma(s)",
+                  "fatorConvercao": 0.001
+                },
+                "pesoLiquido": 3.17,
+                "volumeUm": {
+                  "abrev": "CM3",
+                  "baseConvercao": "CM3",
+                  "nome": "Centímetro(s) Cúbico(s)",
+                  "fatorConvercao": 1
+                }
+              },
+              {
+                "profundidadeUm": {
+                  "abrev": "MM",
+                  "baseConvercao": "CM",
+                  "nome": "Milímetro(s)",
+                  "fatorConvercao": 10
+                },
+                "unidadeDePedido": "Não",
+                "gtin": "7894900680508",
+                "largura": 58,
+                "profundidade": 58,
+                "volume": 1,
+                "larguraUm": {
+                  "abrev": "MM",
+                  "baseConvercao": "CM",
+                  "nome": "Milímetro(s)",
+                  "fatorConvercao": 10
+                },
+                "unidadeEmbalagem": "UNIDADE",
+                "pesoBrutoUm": {
+                  "abrev": "g",
+                  "baseConvercao": "g",
+                  "nome": "Grama(s)",
+                  "fatorConvercao": 1
+                },
+                "dadosComerciais": [],
+                "altura": 233,
+                "ultimoNivel": "Não",
+                "alturaUm": {
+                  "abrev": "MM",
+                  "baseConvercao": "CM",
+                  "nome": "Milímetro(s)",
+                  "fatorConvercao": 10
+                },
+                "pesoBruto": 534.8,
+                "quantidadeTotal": 1,
+                "id": 403216,
+                "quantidade": 1,
+                "nivel": 1,
+                "volumeUm": {
+                  "abrev": "UN",
+                  "nome": "Unidade(s)",
+                  "fatorConvercao": 0
+                }
+              }
+            ],
+            "id": 213308,
+            "status": "Active"
+          },
+          {
+            "composicao": 3,
+            "isEnabled": true,
+            "niveis": [
+              {
+                "profundidadeUm": {
+                  "abrev": "CM",
+                  "baseConvercao": "CM",
+                  "nome": "Centímetro(s)",
+                  "fatorConvercao": 1
+                },
+                "unidadeDePedido": "Não",
+                "gtin": "27894900680502",
+                "largura": 23.7,
+                "paletizacoes": [
+                  {
+                    "pesoLiquidoForaDaEmbalagemPalletUm": {
+                      "abrev": "kg",
+                      "baseConvercao": "g",
+                      "nome": "Quilograma(s)",
+                      "fatorConvercao": 0.001
+                    },
+                    "profundidadePallet": 124.6,
+                    "pesoLiquidoPalletUm": {
+                      "abrev": "kg",
+                      "baseConvercao": "g",
+                      "nome": "Quilograma(s)",
+                      "fatorConvercao": 0.001
+                    },
+                    "caixasCamada": 28,
+                    "pesoLiquidoPallet": 1279.4,
+                    "pallet": 1,
+                    "volumePallet": 2201682,
+                    "larguraPallet": 100,
+                    "pesoCamadaPallet": 179.2,
+                    "alturaPalletUm": {
+                      "abrev": "CM",
+                      "baseConvercao": "CM",
+                      "nome": "Centímetro(s)",
+                      "fatorConvercao": 1
+                    },
+                    "larguraPalletUm": {
+                      "abrev": "CM",
+                      "baseConvercao": "CM",
+                      "nome": "Centímetro(s)",
+                      "fatorConvercao": 1
+                    },
+                    "alturaPallet": 176.7,
+                    "pesoBrutoPallet": 1279.4,
+                    "quantidadeCaixasPallet": 196,
+                    "quantidadeCamadasPallet": 7,
+                    "pesoCamadaPalletUm": {
+                      "abrev": "kg",
+                      "baseConvercao": "g",
+                      "nome": "Quilograma(s)",
+                      "fatorConvercao": 0.001
+                    },
+                    "pesoBrutoPalletUm": {
+                      "abrev": "kg",
+                      "baseConvercao": "g",
+                      "nome": "Quilograma(s)",
+                      "fatorConvercao": 0.001
+                    },
+                    "id": 190068,
+                    "volumePalletUm": {
+                      "abrev": "CM3",
+                      "baseConvercao": "CM3",
+                      "nome": "Centímetro(s) Cúbico(s)",
+                      "fatorConvercao": 1
+                    },
+                    "profundidadePalletUm": {
+                      "abrev": "CM",
+                      "baseConvercao": "CM",
+                      "nome": "Centímetro(s)",
+                      "fatorConvercao": 1
+                    }
+                  }
+                ],
+                "profundidade": 17.8,
+                "volume": 9744.97,
+                "larguraUm": {
+                  "abrev": "CM",
+                  "baseConvercao": "CM",
+                  "nome": "Centímetro(s)",
+                  "fatorConvercao": 1
+                },
+                "unidadeEmbalagem": "FARDO",
+                "pesoBrutoUm": {
+                  "abrev": "kg",
+                  "baseConvercao": "g",
+                  "nome": "Quilograma(s)",
+                  "fatorConvercao": 0.001
+                },
+                "dadosComerciais": [],
+                "altura": 23.1,
+                "ultimoNivel": "Sim",
+                "alturaUm": {
+                  "abrev": "CM",
+                  "baseConvercao": "CM",
+                  "nome": "Centímetro(s)",
+                  "fatorConvercao": 1
+                },
+                "pesoLiquidoForaDaEmbalagemUm": {
+                  "abrev": "kg",
+                  "baseConvercao": "g",
+                  "nome": "Quilograma(s)",
+                  "fatorConvercao": 0.001
+                },
+                "pesoBruto": 6.4,
+                "quantidadeTotal": 12,
+                "id": 405538,
+                "quantidade": 12,
+                "nivel": 2,
+                "pesoLiquidoUm": {
+                  "abrev": "kg",
+                  "baseConvercao": "g",
+                  "nome": "Quilograma(s)",
+                  "fatorConvercao": 0.001
+                },
+                "pesoLiquido": 6.4,
+                "volumeUm": {
+                  "abrev": "CM3",
+                  "baseConvercao": "CM3",
+                  "nome": "Centímetro(s) Cúbico(s)",
+                  "fatorConvercao": 1
+                }
+              },
+              {
+                "profundidadeUm": {
+                  "abrev": "MM",
+                  "baseConvercao": "CM",
+                  "nome": "Milímetro(s)",
+                  "fatorConvercao": 10
+                },
+                "unidadeDePedido": "Não",
+                "gtin": "7894900680508",
+                "largura": 58,
+                "profundidade": 58,
+                "volume": 1,
+                "larguraUm": {
+                  "abrev": "MM",
+                  "baseConvercao": "CM",
+                  "nome": "Milímetro(s)",
+                  "fatorConvercao": 10
+                },
+                "unidadeEmbalagem": "UNIDADE",
+                "pesoBrutoUm": {
+                  "abrev": "g",
+                  "baseConvercao": "g",
+                  "nome": "Grama(s)",
+                  "fatorConvercao": 1
+                },
+                "dadosComerciais": [],
+                "altura": 233,
+                "ultimoNivel": "Não",
+                "alturaUm": {
+                  "abrev": "MM",
+                  "baseConvercao": "CM",
+                  "nome": "Milímetro(s)",
+                  "fatorConvercao": 10
+                },
+                "pesoBruto": 534.8,
+                "quantidadeTotal": 1,
+                "id": 405536,
+                "quantidade": 1,
+                "nivel": 1,
+                "volumeUm": {
+                  "abrev": "UN",
+                  "nome": "Unidade(s)",
+                  "fatorConvercao": 0
+                }
+              }
+            ],
+            "id": 214460,
+            "status": "Active"
+          },
+          {
+            "composicao": 4,
+            "isEnabled": true,
+            "niveis": [
+              {
+                "profundidadeUm": {
+                  "abrev": "CM",
+                  "baseConvercao": "CM",
+                  "nome": "Centímetro(s)",
+                  "fatorConvercao": 1
+                },
+                "unidadeDePedido": "Não",
+                "gtin": "7894900680515",
+                "largura": 11.9,
+                "paletizacoes": [
+                  {
+                    "pesoLiquidoForaDaEmbalagemPalletUm": {
+                      "abrev": "kg",
+                      "baseConvercao": "g",
+                      "nome": "Quilograma(s)",
+                      "fatorConvercao": 0.001
+                    },
+                    "profundidadePallet": 102,
+                    "pesoLiquidoPalletUm": {
+                      "abrev": "kg",
+                      "baseConvercao": "g",
+                      "nome": "Quilograma(s)",
+                      "fatorConvercao": 0.001
+                    },
+                    "caixasCamada": 50,
+                    "pesoLiquidoPallet": 1333,
+                    "pallet": 1,
+                    "volumePallet": 2197080,
+                    "larguraPallet": 120,
+                    "pesoCamadaPallet": 170,
+                    "alturaPalletUm": {
+                      "abrev": "CM",
+                      "baseConvercao": "CM",
+                      "nome": "Centímetro(s)",
+                      "fatorConvercao": 1
+                    },
+                    "larguraPalletUm": {
+                      "abrev": "CM",
+                      "baseConvercao": "CM",
+                      "nome": "Centímetro(s)",
+                      "fatorConvercao": 1
+                    },
+                    "alturaPallet": 179.5,
+                    "pesoBrutoPallet": 1333,
+                    "quantidadeCaixasPallet": 300,
+                    "quantidadeCamadasPallet": 6,
+                    "pesoCamadaPalletUm": {
+                      "abrev": "kg",
+                      "baseConvercao": "g",
+                      "nome": "Quilograma(s)",
+                      "fatorConvercao": 0.001
+                    },
+                    "pesoBrutoPalletUm": {
+                      "abrev": "kg",
+                      "baseConvercao": "g",
+                      "nome": "Quilograma(s)",
+                      "fatorConvercao": 0.001
+                    },
+                    "id": 190689,
+                    "volumePalletUm": {
+                      "abrev": "CM3",
+                      "baseConvercao": "CM3",
+                      "nome": "Centímetro(s) Cúbico(s)",
+                      "fatorConvercao": 1
+                    },
+                    "profundidadePalletUm": {
+                      "abrev": "CM",
+                      "baseConvercao": "CM",
+                      "nome": "Centímetro(s)",
+                      "fatorConvercao": 1
+                    }
+                  }
+                ],
+                "profundidade": 17.8,
+                "volume": 4977.77,
+                "larguraUm": {
+                  "abrev": "CM",
+                  "baseConvercao": "CM",
+                  "nome": "Centímetro(s)",
+                  "fatorConvercao": 1
+                },
+                "unidadeEmbalagem": "FARDO",
+                "pesoBrutoUm": {
+                  "abrev": "kg",
+                  "baseConvercao": "g",
+                  "nome": "Quilograma(s)",
+                  "fatorConvercao": 0.001
+                },
+                "dadosComerciais": [],
+                "altura": 23.5,
+                "ultimoNivel": "Sim",
+                "alturaUm": {
+                  "abrev": "CM",
+                  "baseConvercao": "CM",
+                  "nome": "Centímetro(s)",
+                  "fatorConvercao": 1
+                },
+                "pesoLiquidoForaDaEmbalagemUm": {
+                  "abrev": "kg",
+                  "baseConvercao": "g",
+                  "nome": "Quilograma(s)",
+                  "fatorConvercao": 0.001
+                },
+                "pesoBruto": 3.4,
+                "quantidadeTotal": 6,
+                "id": 406873,
+                "quantidade": 6,
+                "nivel": 2,
+                "pesoLiquidoUm": {
+                  "abrev": "kg",
+                  "baseConvercao": "g",
+                  "nome": "Quilograma(s)",
+                  "fatorConvercao": 0.001
+                },
+                "pesoLiquido": 3.06,
+                "volumeUm": {
+                  "abrev": "CM3",
+                  "baseConvercao": "CM3",
+                  "nome": "Centímetro(s) Cúbico(s)",
+                  "fatorConvercao": 1
+                }
+              },
+              {
+                "profundidadeUm": {
+                  "abrev": "MM",
+                  "baseConvercao": "CM",
+                  "nome": "Milímetro(s)",
+                  "fatorConvercao": 10
+                },
+                "unidadeDePedido": "Não",
+                "gtin": "7894900680508",
+                "largura": 58,
+                "profundidade": 58,
+                "volume": 1,
+                "larguraUm": {
+                  "abrev": "MM",
+                  "baseConvercao": "CM",
+                  "nome": "Milímetro(s)",
+                  "fatorConvercao": 10
+                },
+                "unidadeEmbalagem": "UNIDADE",
+                "pesoBrutoUm": {
+                  "abrev": "g",
+                  "baseConvercao": "g",
+                  "nome": "Grama(s)",
+                  "fatorConvercao": 1
+                },
+                "dadosComerciais": [],
+                "altura": 233,
+                "ultimoNivel": "Não",
+                "alturaUm": {
+                  "abrev": "MM",
+                  "baseConvercao": "CM",
+                  "nome": "Milímetro(s)",
+                  "fatorConvercao": 10
+                },
+                "pesoBruto": 534.8,
+                "quantidadeTotal": 1,
+                "id": 406872,
+                "quantidade": 1,
+                "nivel": 1,
+                "volumeUm": {
+                  "abrev": "UN",
+                  "nome": "Unidade(s)",
+                  "fatorConvercao": 0
+                }
+              }
+            ],
+            "id": 215152,
+            "status": "Active"
+          }
+        ],
+        "operacao": "ADD",
+        "categoriaProduto": {
+          "nome": "REFRIGERANTES",
+          "id": "08",
+          "gpc": "10000201"
+        },
+        "paisOrigem": {
+          "nome": "Brasil",
+          "id": 1
+        },
+        "tipoCadastro": "Completo",
+        "fabricante": {
+          "tipoFilial": "Não",
+          "tipoPessoa": "Jurídica",
+          "endereco": {
+            "cidade": "RIO DE JANEIRO",
+            "estado": "RJ",
+            "endereco": "PRAIA DE BOTAFOGO",
+            "bairro": "BOTAFOGO",
+            "id": 22547,
+            "pais": {
+              "codigo": "BRA",
+              "nome": "Brasil",
+              "id": 1
+            },
+            "cep": "22.250-040"
+          },
+          "naoHomologado": "Não",
+          "nome": "RECOFARMA INDUSTRIA DO AMAZONAS LTDA",
+          "cnpj": "61454393000602",
+          "publicacao": "Não",
+          "adicionais": {
+            "idFaturamento": "61454393000602"
+          },
+          "tipoFranquia": "Não",
+          "nomeFantasia": "RECOFARMA",
+          "tipoFranqueador": "Sim",
+          "tipoMatriz": "Não",
+          "id": 930,
+          "tipoImportador": "Não",
+          "cnpjBarra": "93000602",
+          "tipoFabricante": "Sim",
+          "tipoDistribuidor": "Não"
+        },
+        "empresa": {
+          "tipoFilial": "Não",
+          "tipoPessoa": "Jurídica",
+          "endereco": {
+            "cidade": "RIO DE JANEIRO",
+            "estado": "RJ",
+            "endereco": "PRAIA DE BOTAFOGO",
+            "bairro": "BOTAFOGO",
+            "id": 22547,
+            "pais": {
+              "codigo": "BRA",
+              "nome": "Brasil",
+              "id": 1
+            },
+            "cep": "22.250-040"
+          },
+          "naoHomologado": "Não",
+          "nome": "RECOFARMA INDUSTRIA DO AMAZONAS LTDA",
+          "cnpj": "61454393000602",
+          "publicacao": "Não",
+          "adicionais": {
+            "idFaturamento": "61454393000602"
+          },
+          "tipoFranquia": "Não",
+          "nomeFantasia": "RECOFARMA",
+          "tipoFranqueador": "Sim",
+          "tipoMatriz": "Não",
+          "id": 930,
+          "tipoImportador": "Não",
+          "cnpjBarra": "93000602",
+          "tipoFabricante": "Sim",
+          "tipoDistribuidor": "Não"
+        },
+        "listaEspecificos": [],
+        "cnpIntegrationStatus": {
+          "nome": "Atualizado",
+          "id": "UPDATED"
+        },
+        "versao": 1,
+        "status": {
+          "nome": "Published",
+          "id": "PUBLISHED"
+        }
+      }
+    ]
+  }
+]

@@ -1,6 +1,5 @@
 //service.js
 
-
 const axios = require('axios');
 require('dotenv').config();
 
@@ -23,7 +22,7 @@ async function autenticar() {
             email: apiEmail,
             password: apiPassword
         });
-        console.log('a minha função foi chamada')
+        console.log('Login efetuado com sucesso!')
 
         // Retornar o token JWT da resposta
         return response.data.token;
@@ -53,7 +52,7 @@ async function listarProdutos(dataAtual, token) {
 
             // Armazenar os GTINs na lista codigosGTIN
             codigosGTIN = response.data.map(produto => produto.gtin);
-           
+            
             // Retorna uma lista de objetos contendo GTIN e descrição de cada produto
             return response.data.map(produto => ({
                 gtin: produto.gtin,
@@ -80,87 +79,85 @@ async function detalhesProduto(gtin, token) {
             }
         });
 
-
-        //console.log(response.data);
+        // console.log(response.data);
 
         // Extrair os detalhes relevantes do produto da resposta
-        const detalhes = response.data.map(produto => {
+        const detalhes = response.data.produtos.map(produto => ( 
             {
             "gtin": produto.gtin,
             "descricao": produto.descricao,
-            "marca": produto.marca ? produto.marca.nome : null,
-            "submarca": produto.submarca ? {{produto.submarca.nome}} : null,
+            "marca": produto.marca ? ({"nome": produto.marca.nome}) : (null),
+            "submarca": produto.submarca ? ({"nome": produto.submarca.nome}) : (null),
             "codigoInterno": produto.codigoInterno,
-            "categoriaProduto": produto.categoriaProduto ? {{produto.categoriaProduto.nome}} : null,
-            "categoriaPai": produto.categoriaPai ? {{produto.categoriaPai.nome}} : null,
+            "categoriaProduto": produto.categoriaProduto ? ({"nome": produto.categoriaProduto.nome}) : (null),
+            "categoriaPai": produto.categoriaPai ? ({"nome": produto.categoriaPai.nome}) : (null),
             "origem": produto.origem,
 
-            "classificacaoFiscal": produto.classificacaoFiscal ? {
+            "classificacaoFiscal": produto.classificacaoFiscal ? ({
                 "ncm": produto.classificacaoFiscal.ncm,
                 "caracteristica": produto.classificacaoFiscal.caracteristica ? produto.classificacaoFiscal.caracteristica : null,
                 "cestCodigo": produto.classificacaoFiscal.cestCoding,
                 "cestDescricao": produto.classificacaoFiscal.cestDescricao,
-            } : null,
+            }) : (null),
 
-            "imagemPrincipal": produto.imagemPrincipal ? {
+            "imagemPrincipal": produto.imagemPrincipal ? ({
                 "url": produto.imagemPrincipal.url,
                 "ultimaAtualizacao": produto.imagemPrincipal.ultimaAtualizacao,
-            } : null,
+            }) : (null),
 
-            "ativos": produto.ativos ? produtos.ativos.map( ativo => {
+            "ativos": produto.ativos ? produto.ativos.map( ativo => ({
                 "url": ativo.url,
                 "ultimaAtualizacao": ativo.ultimaAtualizacao,
-            }) : null,
+            })) : (null),
 
-            "composicoesLogisticas": produto.composicoesLogisticas ? produto.composicoesLogisticas.map( composicao => {
-                "niveis": composicao.niveis ? composicao.niveis.map( nivel => {
+            "composicoesLogisticas": produto.composicoesLogisticas ? produto.composicoesLogisticas.map( composicao => ({
+                "niveis": composicao.niveis ? composicao.niveis.map( nivel => ({
                     "gtin": nivel.gtin,
                     "unidadeEmbalagem": nivel.unidadeEmbalagen,
                     "quantidade": nivel.quantidade,
                     "quantidadeTotal": nivel.quantidadeTotal,
                     "altura": nivel.altura,
-                    "alturaUm": nivel.alturaUm ? nivel.alturaUm.map(altura => {
-                        "nome": altura.nome,
-                        "abrev": altura.abrev,
-                        "baseConvercao": altura.baseConvercao}) : null,
+                    "alturaUm": nivel.alturaUm ? ({
+                        "nome": nivel.alturaUm.nome,
+                        "abrev": nivel.alturaUm.abrev,
+                        "baseConvercao": nivel.alturaUm.baseConvercao}) : null,
                     "largura": nivel.largura,
-                    "largauraUm": nivel.larguraUm ? nivel.larguraUm.map(largura => {
-                        "nome": largura.nome,
-                        "abrev": largura.abrev,
-                        "baseConvercao": largura.baseConvercao}) : null,
+                    "largauraUm": nivel.larguraUm ? ({
+                        "nome": nivel.larguraUm.nome,
+                        "abrev": nivel.larguraUm.abrev,
+                        "baseConvercao": nivel.larguraUm.baseConvercao}) : null,
                     "profundidade": nivel.profundidade,
-                    "profundidadeUm": nivel.profundidadeUm ? nivel.profundidadeUm.map(profundidade => {
-                        "nome": profundidade.nome,
-                        "abrev": profundidade.abrev,
-                        "baseConvercao": profundidade.baseConvercao}) : null,
+                    "profundidadeUm": nivel.profundidadeUm ? ({
+                        "nome": nivel.profundidadeUm.nome,
+                        "abrev": nivel.profundidadeUm.abrev,
+                        "baseConvercao": nivel.profundidadeUm.baseConvercao}) : null,
                     "pesoLiquido": nivel.pesoLiquido,
-                    "pesoLiquidoUm": nivel.pesoLiquidoUm ? nivel.profundidadeUm.map(pesoLiquido => {
-                        "nome": pesoLiquido.nome,
-                        "abrev": pesoLiquido.abrev,
-                        "baseConvercao": pesoLiquido.baseConvercao}) : null,
+                    "pesoLiquidoUm": nivel.pesoLiquidoUm ? ({
+                        "nome": nivel.pesoLiquidoUm.nome,
+                        "abrev": nivel.pesoLiquidoUm.abrev,
+                        "baseConvercao": nivel.pesoLiquidoUm.baseConvercao}) : null,
                     "pesoBruto": nivel.pesoBruto,
-                    "pesoBrutoUm": nivel.pesoBrutoUm ? nivel.pesoBrutoUm.map(pesoBruto => {
-                        "nome": pesoBruto.nome,
-                        "abrev": pesoBruto.abrev,
-                        "baseConvercao": pesoBruto.baseConvercao}) : null,
-                    "paletizacoes": nivel.paletizacoes ? nivel.paletizacoes.map( paletizacao => {
+                    "pesoBrutoUm": nivel.pesoBrutoUm ? ({
+                        "nome": nivel.pesoBrutoUm.nome,
+                        "abrev": nivel.pesoBrutoUm.abrev,
+                        "baseConvercao": nivel.pesoBrutoUm.baseConvercao}) : null,
+                    "paletizacoes": nivel.paletizacoes ? nivel.paletizacoes.map( paletizacao => ({
                         "quantidadeCamadasPallet": paletizacao.quantidadeCamadasPallet,
                         "caixasCamada": paletizacao.caixasCamada,
                         "alturaPallet": paletizacao.alturaPallet,
-                        "larguraPallet": paletizacao.larguraPallet}) : null
-                }) : null
-                }) : null,
-            }}
+                        "larguraPallet": paletizacao.larguraPallet})) : null
+                })) : null
+                })) : (null),
+            }))
         
-        
-        return detalhes;
+        return detalhes[0];
         
     } catch (error) {
-        console.error('Erro ao buscar detalhes do produto:', error.message);
+        console.error('Erro ao buscar detalhes do produto: ', gtin, error.message);
         throw error;
+        
     }
 }
-
 
 
 module.exports = {
