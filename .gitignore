@@ -4,5 +4,6 @@
 # local env files
 .env
 
-.vercel
+
+
 
