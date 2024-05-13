@@ -2,6 +2,8 @@
 // Importar o módulo de renderização de templates EJS
 const ejs = require("ejs");
 const express = require("express");
+const swaggerUi = require("swagger-ui-express");
+const specs = require("./swaggerConfig");
 const { listarProdutos, detalhesProduto, autenticar } =
   require("./service");
 const app = express();
@@ -13,6 +15,9 @@ const day = now.getDate().toString().padStart(2, '0');
 
 
 const dataAtual = `${year}${month}${day}${"00"}${"00"}${"00"}`;
+
+// Rota para acessar a documentação do Swagger
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(specs));
 
 // Rota que retorna os produtos atualizados no dia com informações
 app.get("/", async (req, res) => {
