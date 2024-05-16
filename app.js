@@ -47,7 +47,7 @@ app.get("/", async (req, res) => {
 });
 
 // Definindo a tarefa agendada para ser executada à meia-noite todos os dias
-cron.schedule('0 0 * * *', () => {
+cron.schedule('14 12 * * *', () => {
   console.log('Tarefa agendada executada à meia-noite todos os dias');
 });
 
