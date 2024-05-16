@@ -15,11 +15,32 @@ const day = now.getDate().toString().padStart(2, '0');
 
 const dataAtual = `${year}${month}${day}${"00"}${"00"}${"00"}`;
 
+ // Definindo a tarefa agendada para ser executada à meia-noite todos os dias
+cron.schedule('* * * * *', async () => {
+  try {
+    const token = await autenticar();
+    const gtinsAtualizados = await listarProdutos(dataAtual, token);
+    const detalhesProdutos = [];
+
+    for (const gtin of gtinsAtualizados) {
+      const code = gtin.gtin;
+      console.log(code);
+      const detalhes = await detalhesProduto(code, token);
+      detalhesProdutos.push(detalhes);
+    }
+
+    console.log("Tarefa agendada executada com sucesso");
+  } catch (error) {
+    console.error("Erro ao executar a tarefa agendada:", error.message);
+  }
+});
+
 // Rota que retorna os produtos atualizados no dia com informações
 app.get("/", async (req, res) => {
   try {
     const token = await autenticar();
 
+    
     // Lista os produtos atualizados no dia
     const gtinsAtualizados = await listarProdutos(dataAtual, token);
 
@@ -44,14 +65,7 @@ app.get("/", async (req, res) => {
   } catch (error) {
     res.status(500).json({ error: "Erro ao buscar produtos atualizados" });
   }
-});
-
-// Definindo a tarefa agendada para ser executada à meia-noite todos os dias
-cron.schedule('14 12 * * *', () => {
-  console.log('Tarefa agendada executada à meia-noite todos os dias');
-});
-
-const PORT = process.env.PORT || 3000;
+});const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
 });
