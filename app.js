@@ -4,7 +4,6 @@ const ejs = require("ejs");
 const express = require("express");
 const { listarProdutos, detalhesProduto, autenticar } =
   require("./service");
-const cron = require('node-cron');
 const app = express();
 const now = new Date();
 const year = now.getFullYear();
@@ -46,13 +45,7 @@ app.get("/", async (req, res) => {
   }
 });
 
-// Definindo a tarefa agendada para ser executada à meia-noite todos os dias
-cron.schedule('0 0 * * *', () => {
-  console.log('Tarefa agendada executada à meia-noite todos os dias');
-});
-
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
 });
-
