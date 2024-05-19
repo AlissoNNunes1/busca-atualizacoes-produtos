@@ -6,19 +6,20 @@ const { listarProdutos, detalhesProduto, autenticar } =
   require("./service");
 const cron = require('node-cron');
 const app = express();
+const obterDataAtual = ()=> {
 const now = new Date();
 const year = now.getFullYear();
 const month = (now.getMonth() + 1).toString().padStart(2, '0');
 const day = now.getDate().toString().padStart(2, '0');
+return `${year}${month}${day}${"00"}${"00"}${"00"}`;
+}
 
-
-
-const dataAtual = `${year}${month}${day}${"00"}${"00"}${"00"}`;
 
  // Definindo a tarefa agendada para ser executada à meia-noite todos os dias
-cron.schedule('* * * * *', async () => {
+cron.schedule('0 0 * * *', async () => {
   try {
     const token = await autenticar();
+    const dataAtual = obterDataAtual();
     const gtinsAtualizados = await listarProdutos(dataAtual, token);
     const detalhesProdutos = [];
 
@@ -39,8 +40,8 @@ cron.schedule('* * * * *', async () => {
 app.get("/", async (req, res) => {
   try {
     const token = await autenticar();
+    const dataAtual = obterDataAtual();
 
-    
     // Lista os produtos atualizados no dia
     const gtinsAtualizados = await listarProdutos(dataAtual, token);
 
@@ -65,7 +66,10 @@ app.get("/", async (req, res) => {
   } catch (error) {
     res.status(500).json({ error: "Erro ao buscar produtos atualizados" });
   }
-});const PORT = process.env.PORT || 3000;
+});
+
+ // Configuração do servidor
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
 });
