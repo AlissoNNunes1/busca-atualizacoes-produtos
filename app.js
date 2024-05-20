@@ -5,19 +5,41 @@ const express = require("express");
 const { listarProdutos, detalhesProduto, autenticar } =
   require("./service");
 const app = express();
+const obterDataAtual = ()=> {
 const now = new Date();
 const year = now.getFullYear();
 const month = (now.getMonth() + 1).toString().padStart(2, '0');
 const day = now.getDate().toString().padStart(2, '0');
+return `${year}${month}${day}${"00"}${"00"}${"00"}`;
+}
 
 
+ // Definindo a tarefa agendada para ser executada à meia-noite todos os dias
+cron.schedule('0 0 * * *', async () => {
+  try {
+    const token = await autenticar();
+    const dataAtual = obterDataAtual();
+    const gtinsAtualizados = await listarProdutos(dataAtual, token);
+    const detalhesProdutos = [];
 
-const dataAtual = `${year}${month}${day}${"00"}${"00"}${"00"}`;
+    for (const gtin of gtinsAtualizados) {
+      const code = gtin.gtin;
+      console.log(code);
+      const detalhes = await detalhesProduto(code, token);
+      detalhesProdutos.push(detalhes);
+    }
+
+    console.log("Tarefa agendada executada com sucesso");
+  } catch (error) {
+    console.error("Erro ao executar a tarefa agendada:", error.message);
+  }
+});
 
 // Rota que retorna os produtos atualizados no dia com informações
 app.get("/", async (req, res) => {
   try {
     const token = await autenticar();
+    const dataAtual = obterDataAtual();
 
     // Lista os produtos atualizados no dia
     const gtinsAtualizados = await listarProdutos(dataAtual, token);
