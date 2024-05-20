@@ -4,6 +4,7 @@ const ejs = require("ejs");
 const express = require("express");
 const swaggerUi = require("swagger-ui-express");
 const specs = require("./swaggerConfig");
+const cron = require("node-cron");
 const { listarProdutos, detalhesProduto, autenticar } =
   require("./service");
 const app = express();
