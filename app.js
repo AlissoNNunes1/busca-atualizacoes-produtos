@@ -4,7 +4,6 @@ const ejs = require("ejs");
 const express = require("express");
 const { listarProdutos, detalhesProduto, autenticar } =
   require("./service");
-const cron = require('node-cron');
 const app = express();
 const obterDataAtual = ()=> {
 const now = new Date();
@@ -68,9 +67,7 @@ app.get("/", async (req, res) => {
   }
 });
 
- // Configuração do servidor
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
 });
-
