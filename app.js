@@ -5,9 +5,8 @@ const specs = require("./swaggerConfig");
 const cron = require('node-cron');
 const NodeCache = require('node-cache');
 const { listarProdutos, detalhesProduto, autenticar } = require("./service");
-const cron = require("node-cron");
-const { listarProdutos, detalhesProduto, autenticar } =
-  require("./service");
+
+
  
 const app = express();
 
