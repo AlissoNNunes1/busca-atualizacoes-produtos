@@ -5,6 +5,10 @@ const specs = require("./swaggerConfig");
 const cron = require('node-cron');
 const NodeCache = require('node-cache');
 const { listarProdutos, detalhesProduto, autenticar } = require("./service");
+const cron = require("node-cron");
+const { listarProdutos, detalhesProduto, autenticar } =
+  require("./service");
+ 
 const app = express();
 
 const cache = new NodeCache({ stdTTL: 3600 }); // Cache com TTL de 1 hora
