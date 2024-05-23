@@ -28,7 +28,7 @@ async function autenticar() {
 
 async function listarProdutos(dataAtual, token) {
   try {
-    const response = await api.get(`/products-published?ultimaAtualizacao=${dataAtual}&mostrarInativos=true`, {
+    const response = await api.get(`/products-published?ultimaAtualizacao=${dataAtual}`, {
       headers: {
         Authorization: `Bearer ${token}`
       }
