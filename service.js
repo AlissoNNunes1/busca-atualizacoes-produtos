@@ -126,7 +126,7 @@ async function detalhesProduto(gtin, token) {
     return detalhes[0];
   } catch (error) {
     console.error('Erro ao buscar detalhes do produto: ', gtin, error.message);
-    throw error;
+    return null;
   }
 }
 

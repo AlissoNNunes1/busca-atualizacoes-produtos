@@ -1,17 +1,9 @@
-
 const express = require("express");
 const swaggerUi = require("swagger-ui-express");
 const specs = require("./swaggerConfig");
 const cron = require('node-cron');
 const NodeCache = require('node-cache');
 const { listarProdutos, detalhesProduto, autenticar } = require("./service");
-
-
- 
-const app = express();
-
-const cache = new NodeCache({ stdTTL: 3600 }); // Cache com TTL de 1 hora
-
 const obterDataAtual = () => {
   const now = new Date();
   const year = now.getFullYear();
@@ -19,6 +11,13 @@ const obterDataAtual = () => {
   const day = now.getDate().toString().padStart(2, '0');
   return `${year}${month}${day}${"00"}${"00"}${"00"}`;
 };
+
+const app = express();
+const cache = new NodeCache({ stdTTL: 3600 }); // Cache com TTL de 1 hora
+
+let ultimaAtualizacaoCache = obterDataAtual(); // Armazena a data da última atualização do cache
+
+
 
 // Middleware para medir o tempo de resposta
 app.use((req, res, next) => {
@@ -28,6 +27,17 @@ app.use((req, res, next) => {
     const elapsedMs = elapsed[0] * 1000 + elapsed[1] / 1e6;
     console.log(`Tempo de resposta para [${req.method}] ${req.originalUrl}: ${elapsedMs.toFixed(3)} ms`);
   });
+  next();
+});
+
+// Middleware para invalidar o cache baseado na data atual
+app.use((req, res, next) => {
+  const dataAtual = obterDataAtual();
+  if (dataAtual !== ultimaAtualizacaoCache) {
+    cache.flushAll(); // Limpa todos os dados do cache
+    ultimaAtualizacaoCache = dataAtual; // Atualiza a data da última atualização do cache
+    console.log("Cache resetado devido a mudança de data");
+  }
   next();
 });
 
@@ -53,6 +63,7 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(specs));
 app.get("/", async (req, res) => {
   try {
     const token = await autenticar();
+    console.log(token)
     const dataAtual = obterDataAtual();
 
     // Verifica se os dados estão no cache
