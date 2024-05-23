@@ -90,11 +90,6 @@ Acesse: [http://localhost:3000](http://localhost:3000) para utilizar a aplica√ß√
 
 - Node.js
 - Express
-- Axios
-- dotenv
-- swagger-jsdoc
-- swagger-ui-express
-- node-cron
 
 ---
 
