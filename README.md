@@ -101,5 +101,5 @@ Acesse: [http://localhost:3000](http://localhost:3000) para utilizar a aplicaç�
 - `package-lock.json`: Arquivo que mantém as versões exatas das dependências instaladas para garantir consistência.
 - `swaggerConfig.js`: Configuração do Swagger para documentação da API.
 - `vercel.json`: Arquivo de configuração para implantação na plataforma Vercel, especificando como o projeto deve ser construído e servido.
-- `README.md`: Arquivo de documentação do projeto que geralmente inclui uma visão geral do projeto, instruções de instalação, uso, contribuições e outros detalhes relevantes para desenvolvedores e usuários.```
+- `README.md`: Arquivo de documentação do projeto.```
 
